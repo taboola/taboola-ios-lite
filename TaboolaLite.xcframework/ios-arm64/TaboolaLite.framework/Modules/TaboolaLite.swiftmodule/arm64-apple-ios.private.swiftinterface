@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name TaboolaLite -package-name taboolalite
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name TaboolaLite -package-name ios_lite_sdk
 // swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
 import AdSupport
 import CoreLocation
@@ -23,6 +23,7 @@ public protocol OnTBLListener : AnyObject {
 public protocol OnTBLNewsListener : AnyObject {
   func onTaboolaNewsSetupComplete(statusCode: TaboolaLite.TBLStatusCode)
   func onTaboolaNewsRefreshComplete(statusCode: TaboolaLite.TBLStatusCode)
+  func onTaboolaNewsClickComplete(statusCode: TaboolaLite.TBLStatusCode)
 }
 @_hasMissingDesignatedInitializers public class TBLSDK {
   public static let shared: TaboolaLite.TBLSDK
@@ -60,7 +61,7 @@ public enum TBLStatusCode : Swift.Int {
 }
 public class TBLUserData : Swift.Equatable {
   public var device: Swift.String?
-  public init(hashedEmail: Swift.String, gender: Swift.String, age: Swift.String, userInterestAndIntent: Swift.String)
+  public init(hashedEmail: Swift.String)
   public static func == (lhs: TaboolaLite.TBLUserData, rhs: TaboolaLite.TBLUserData) -> Swift.Bool
   @objc deinit
 }
