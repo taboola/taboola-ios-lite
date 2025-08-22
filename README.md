@@ -228,6 +228,10 @@ TBLSDK.shared.updateReloadIntervals(
 
 ## Changelog
 
+### Version 1.1.0
+- Remove location code.
+- Not collection IDFA if no concent
+
 ### Version 1.0.8
 - Enable deeplink in taboola webView
 - Fix wait for `onTaboolaInitializationComplete`

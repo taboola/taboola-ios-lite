@@ -227,6 +227,33 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTaboolaNewsClickComplete",
+            "printedName": "onTaboolaNewsClickComplete(statusCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLStatusCode",
+                "printedName": "TaboolaLite.TBLStatusCode",
+                "usr": "s:11TaboolaLite13TBLStatusCodeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite17OnTBLNewsListenerP02onA17NewsClickComplete10statusCodeyAA09TBLStatusK0O_tF",
+            "mangledName": "$s11TaboolaLite17OnTBLNewsListenerP02onA17NewsClickComplete10statusCodeyAA09TBLStatusK0O_tF",
+            "moduleName": "TaboolaLite",
+            "genericSig": "<τ_0_0 where τ_0_0 : TaboolaLite.OnTBLNewsListener>",
+            "sugared_genericSig": "<Self where Self : TaboolaLite.OnTBLNewsListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -1247,13 +1274,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "TaboolaLite"
-      },
-      {
-        "kind": "Import",
         "name": "Network",
         "printedName": "Network",
         "declKind": "Import",
@@ -1405,7 +1425,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(hashedEmail:gender:age:userInterestAndIntent:)",
+            "printedName": "init(hashedEmail:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1418,29 +1438,11 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11TaboolaLite11TBLUserDataC11hashedEmail6gender3age21userInterestAndIntentACSS_S3Stcfc",
-            "mangledName": "$s11TaboolaLite11TBLUserDataC11hashedEmail6gender3age21userInterestAndIntentACSS_S3Stcfc",
+            "usr": "s:11TaboolaLite11TBLUserDataC11hashedEmailACSS_tcfc",
+            "mangledName": "$s11TaboolaLite11TBLUserDataC11hashedEmailACSS_tcfc",
             "moduleName": "TaboolaLite",
             "declAttributes": [
               "AccessControl"
@@ -1921,14 +1923,14 @@
     {
       "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/TBLSDK.swift",
       "kind": "StringLiteral",
-      "offset": 687,
+      "offset": 750,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/TBLSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 761,
+      "offset": 824,
       "length": 5,
       "value": "false"
     },
@@ -2341,35 +2343,35 @@
     {
       "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserData.swift",
       "kind": "StringLiteral",
-      "offset": 567,
+      "offset": 547,
       "length": 5,
       "value": "\"lat\""
     },
     {
       "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserData.swift",
       "kind": "StringLiteral",
-      "offset": 604,
+      "offset": 584,
       "length": 5,
       "value": "\"lon\""
     },
     {
       "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserData.swift",
       "kind": "StringLiteral",
-      "offset": 637,
+      "offset": 617,
       "length": 4,
       "value": "\"wd\""
     },
     {
       "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserData.swift",
       "kind": "StringLiteral",
-      "offset": 670,
+      "offset": 650,
       "length": 4,
       "value": "\"ht\""
     },
     {
       "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserData.swift",
       "kind": "StringLiteral",
-      "offset": 705,
+      "offset": 685,
       "length": 10,
       "value": "\"keyboard\""
     },
