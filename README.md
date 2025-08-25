@@ -228,6 +228,10 @@ TBLSDK.shared.updateReloadIntervals(
 
 ## Changelog
 
+### Version 1.1.1
+- Static framework
+- Status bar color change
+
 ### Version 1.1.0
 - Remove location code.
 - Not collection IDFA if no concent
