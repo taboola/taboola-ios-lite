@@ -228,6 +228,9 @@ TBLSDK.shared.updateReloadIntervals(
 
 ## Changelog
 
+### Version 1.1.2
+- Dynamic SDK
+
 ### Version 1.1.1
 - Status bar color change
 
