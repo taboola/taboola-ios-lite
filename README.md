@@ -157,11 +157,13 @@ The `OnTBLNewsListener` interface allows you to listen for news-fragment events 
 public protocol OnTBLNewsListener: AnyObject {
     func onTaboolaNewsSetupComplete(statusCode: TBLStatusCode)
     func onTaboolaNewsRefreshComplete(statusCode: TBLStatusCode)
+    func onTaboolaNewsClickComplete(statusCode: TBLStatusCode)
 }
 ```
 
 * **onTaboolaNewsSetupComplete**: Called when the Taboola WebView is successfully added to the fragment.
 * **onTaboolaNewsRefreshComplete**: Called when the Taboola WebView finishes refreshing content.
+* **onTaboolaNewsClickComplete**: Called when clicking on opening category or item.
 
 The `TBLStatusCode` enum includes the following statuses
 Each status also includes a `message` property that provides a user-friendly description, which can be used for logging or displaying error messages in the UI:
@@ -174,6 +176,7 @@ Each status also includes a `message` property that provides a user-friendly des
 - SDK_DISABLED(-3): "SDK Disabled - SDK functionality has been disabled."
 - SDK_NOT_INITIALIZED(-4): "SDK Not Initialized - Please call initialize() first."
 - INVALID_VIEW_GROUP(-5): "Invalid View - View must be a ViewGroup and not null."
+- TIMEOUT(-6):"Timeout - Try again later."
 
 ---
 
@@ -227,6 +230,11 @@ TBLSDK.shared.updateReloadIntervals(
 ```
 
 ## Changelog
+
+### Version 1.1.3
+- Add a fix to status bar color.
+- Add timout stutus to error handling.
+- Fix Auto refresh.
 
 ### Version 1.1.2
 - Dynamic SDK

@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TaboolaLite -package-name ios_sdk_lite
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name TaboolaLite -package-name taboolalite
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
 import AdSupport
 import CoreLocation
 import Foundation
@@ -49,6 +50,7 @@ public enum TBLStatusCode : Swift.Int {
   case sdkDisabled
   case sdkNotInitialized
   case invalidViewGroup
+  case timeout
   public var message: Swift.String {
     get
   }
