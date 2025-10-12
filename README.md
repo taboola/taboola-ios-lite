@@ -42,12 +42,7 @@ The `TBLSDK.initialize` method must be called before using any other SDK functio
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     let publisherId = "your-publisher-id"
-    let userData = TBLUserData(
-        "hashedEmail",
-        "gender",
-        "age",
-        "userInterestAndIntent"
-    )
+    let userData = TBLUserData(email: email, globalUserId: globalUserId)
     
     TBLSDK.shared.initialize(publisherId: publisherId, data: userData, onTaboolaListener: OnTBLListener())
     return true
@@ -120,10 +115,11 @@ This method helps control whether the SDK collects user data, adhering to user p
 The function can be called **before or after** `TBLSDK.initialize`
 
 ```swift
-TBLSDK.setCollectUserData(granted: Bool)
+TBLSDK.shared.setCollectUserData(allowPersonalization: Bool, allowDeviceContext: Bool)
 ```
 - **Parameters**:
-  - `granted`: A boolean indicating whether the user has granted permission (true) or not (false).
+  - `allowPersonalization`: A boolean indicating whether the allowes personaliztion (true) or not (false).
+  - `allowDeviceContext`: A boolean indicating whether the allowes collecting device context (true) or not (false).
 
 ---
 
@@ -230,6 +226,10 @@ TBLSDK.shared.updateReloadIntervals(
 ```
 
 ## Changelog
+
+### Version 1.2.0
+- Change `TBLUserData` init with hashed email and GUID.
+- Change `setCollectUserData` to pass `allowPersonalization` and `allowDeviceContext`
 
 ### Version 1.1.3
 - Add a fix to status bar color.

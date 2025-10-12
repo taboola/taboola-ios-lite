@@ -605,7 +605,7 @@
           {
             "kind": "Function",
             "name": "setCollectUserData",
-            "printedName": "setCollectUserData(granted:)",
+            "printedName": "setCollectUserData(allowPersonalization:allowDeviceContext:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -617,11 +617,17 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11TaboolaLite6TBLSDKC18setCollectUserData7grantedySb_tF",
-            "mangledName": "$s11TaboolaLite6TBLSDKC18setCollectUserData7grantedySb_tF",
+            "usr": "s:11TaboolaLite6TBLSDKC18setCollectUserData20allowPersonalization0H13DeviceContextySb_SbtF",
+            "mangledName": "$s11TaboolaLite6TBLSDKC18setCollectUserData20allowPersonalization0H13DeviceContextySb_SbtF",
             "moduleName": "TaboolaLite",
             "declAttributes": [
               "AccessControl"
@@ -1358,6 +1364,91 @@
         "children": [
           {
             "kind": "Var",
+            "name": "globalUserId",
+            "printedName": "globalUserId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TaboolaLite11TBLUserDataC12globalUserIdSSvp",
+            "mangledName": "$s11TaboolaLite11TBLUserDataC12globalUserIdSSvp",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite11TBLUserDataC12globalUserIdSSvg",
+                "mangledName": "$s11TaboolaLite11TBLUserDataC12globalUserIdSSvg",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite11TBLUserDataC12globalUserIdSSvs",
+                "mangledName": "$s11TaboolaLite11TBLUserDataC12globalUserIdSSvs",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite11TBLUserDataC12globalUserIdSSvM",
+                "mangledName": "$s11TaboolaLite11TBLUserDataC12globalUserIdSSvM",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "device",
             "printedName": "device",
             "children": [
@@ -1469,7 +1560,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(hashedEmail:)",
+            "printedName": "init(email:globalUserId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1482,11 +1573,17 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11TaboolaLite11TBLUserDataC11hashedEmailACSS_tcfc",
-            "mangledName": "$s11TaboolaLite11TBLUserDataC11hashedEmailACSS_tcfc",
+            "usr": "s:11TaboolaLite11TBLUserDataC5email12globalUserIdACSS_SStcfc",
+            "mangledName": "$s11TaboolaLite11TBLUserDataC5email12globalUserIdACSS_SStcfc",
             "moduleName": "TaboolaLite",
             "declAttributes": [
               "AccessControl"
@@ -2560,9 +2657,37 @@
       "value": "\"opt_out\""
     },
     {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 881,
+      "length": 15,
+      "value": "\"deviceContext\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 920,
+      "length": 7,
+      "value": "\"email\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 958,
+      "length": 14,
+      "value": "\"globalUserId\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLUserDataCollector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 493,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLUserDataCollector.swift",
       "kind": "StringLiteral",
-      "offset": 353,
+      "offset": 639,
       "length": 29,
       "value": "\"com.taboola.userdata.access\""
     },
