@@ -28,7 +28,7 @@ Before you begin, ensure your project meets the following requirements:
 1. Download the latest release from GitHub
 2. Drag the `TaboolaLite.xcframework` into your Xcode project
 3. Make sure "Copy items if needed" is checked
-4. Select your target and click "Embed & Sign"
+4. Select your target and select "Do Not Embed" (the framework is static)
 
 ---
 
@@ -43,8 +43,9 @@ The `TBLSDK.initialize` method must be called before using any other SDK functio
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     let publisherId = "your-publisher-id"
     let userData = TBLUserData(email: email, globalUserId: globalUserId)
-    
-    TBLSDK.shared.initialize(publisherId: publisherId, data: userData, onTaboolaListener: OnTBLListener())
+    let newsParams = TBLNewsParams() // Empty for standard flow
+
+    TBLSDK.shared.initialize(publisherId: publisherId, data: userData, newsParams: newsParams, onTaboolaListener: OnTBLListener())
     return true
 }
 ```
@@ -53,6 +54,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
   * `publisherId`: A valid Taboola PublisherId (e.g., `publisherId`).
   * `userData`: An instance of `TBLUserData` containing user-specific data.
+  * `newsParams`: An instance of `TBLNewsParams` containing referral data (pass empty `TBLNewsParams()` for standard flow).
   * `onTaboolaListener`: An implementation of `OnTBLListener` for lifecycle callbacks.
 
 ### 2. Add Taboola to a View
@@ -81,7 +83,7 @@ override func viewWillDisappear(_ animated: Bool) {
 
 ### 4. Set User Data (Optional)
 
-You can update user data at any time:
+You can update user data at any time. When `setUserData` is called, the WebView will automatically reload with the new data - no need to call `initialize` again:
 
 ```swift
 let userData = TBLUserData(
@@ -93,7 +95,43 @@ let userData = TBLUserData(
 TBLSDK.shared.setUserData(userData)
 ```
 
-### 5. Cleanup on App Termination
+### 5. Set News Parameters (Optional)
+
+You can update news parameters after initialization. This is useful when the news tab is opened from different sources (e.g., from a chat tab banner with referral data):
+
+#### Scenario 1: News Tab Opened Directly (Standard Flow)
+If the user opens the news tab by tapping on the tab itself, no referral data is needed:
+
+```swift
+// User clicks the news tab
+let newsParams = TBLNewsParams()
+TBLSDK.shared.initialize(publisherId: publisherId, data: userData, newsParams: newsParams, onTaboolaListener: onTaboolaListener)
+```
+
+#### Scenario 2: News Tab Opened from Chat Tab Banner (CTB)
+If the user opens the news tab by clicking a news banner, you need to pass the referral data:
+
+1. **Get Data from Deeplink**: When the user clicks the CTB, your deeplink will contain a `jd` query parameter (e.g., `line://nv/newsRow?jd=v2_fdfsdf`).
+2. **Extract the `jd` value** from the deeplink.
+3. **Create the TBLNewsParams object**:
+
+```swift
+let newsParams = TBLNewsParams(referralCode: TBLReferralCode.CHAT_PAGE, journeyData: jd)
+```
+
+4. **Pass the object to the SDK** using one of these methods:
+
+   **a)** If `initialize` has not been called yet, pass the `newsParams` directly:
+   ```swift
+   TBLSDK.shared.initialize(publisherId: publisherId, data: userData, newsParams: newsParams, onTaboolaListener: onTaboolaListener)
+   ```
+
+   **b)** If `initialize` has already been called, use the `setNewsParams()` function:
+   ```swift
+   TBLSDK.shared.setNewsParams(newsParams)
+   ```
+
+### 6. Cleanup on App Termination
 
 To properly clean up SDK resources when the app terminates, add the following to your AppDelegate:
 
@@ -226,6 +264,12 @@ TBLSDK.shared.updateReloadIntervals(
 ```
 
 ## Changelog
+
+### Version 1.3.0
+- Framework is now static (changed from dynamic).
+- Added `newsParams` parameter to `initialize` function for handling referral data from different sources (e.g., chat tab banner).
+- Added new `setNewsParams(_ newsParams: TBLNewsParams)` function to update news parameters after initialization.
+- Enhanced `setUserData` to automatically reload the WebView with new user data - no need to call `initialize` again.
 
 ### Version 1.2.0
 - Change `TBLUserData` init with hashed email and GUID.

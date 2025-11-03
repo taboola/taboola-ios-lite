@@ -341,7 +341,7 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(publisherId:data:onTaboolaListener:)",
+            "printedName": "initialize(publisherId:data:newsParams:onTaboolaListener:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -362,6 +362,12 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "TBLNewsParams",
+                "printedName": "TaboolaLite.TBLNewsParams",
+                "usr": "s:11TaboolaLite13TBLNewsParamsV"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "(any TaboolaLite.OnTBLListener)?",
                 "children": [
@@ -377,8 +383,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11TaboolaLite6TBLSDKC10initialize11publisherId4data02onA8ListenerySS_AA11TBLUserDataCAA13OnTBLListener_pSgtF",
-            "mangledName": "$s11TaboolaLite6TBLSDKC10initialize11publisherId4data02onA8ListenerySS_AA11TBLUserDataCAA13OnTBLListener_pSgtF",
+            "usr": "s:11TaboolaLite6TBLSDKC10initialize11publisherId4data10newsParams02onA8ListenerySS_AA11TBLUserDataCAA07TBLNewsI0VAA13OnTBLListener_pSgtF",
+            "mangledName": "$s11TaboolaLite6TBLSDKC10initialize11publisherId4data10newsParams02onA8ListenerySS_AA11TBLUserDataCAA07TBLNewsI0VAA13OnTBLListener_pSgtF",
             "moduleName": "TaboolaLite",
             "declAttributes": [
               "AccessControl",
@@ -458,6 +464,32 @@
             "declKind": "Func",
             "usr": "s:11TaboolaLite6TBLSDKC11setUserDatayyAA07TBLUserF0CF",
             "mangledName": "$s11TaboolaLite6TBLSDKC11setUserDatayyAA07TBLUserF0CF",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNewsParams",
+            "printedName": "setNewsParams(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLNewsParams",
+                "printedName": "TaboolaLite.TBLNewsParams",
+                "usr": "s:11TaboolaLite13TBLNewsParamsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite6TBLSDKC13setNewsParamsyyAA07TBLNewsF0VF",
+            "mangledName": "$s11TaboolaLite6TBLSDKC13setNewsParamsyyAA07TBLNewsF0VF",
             "moduleName": "TaboolaLite",
             "declAttributes": [
               "AccessControl"
@@ -1051,6 +1083,43 @@
           },
           {
             "kind": "Var",
+            "name": "tryingToReInitialize",
+            "printedName": "tryingToReInitialize",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLStatusCode.Type) -> TaboolaLite.TBLStatusCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLStatusCode",
+                    "printedName": "TaboolaLite.TBLStatusCode",
+                    "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLStatusCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLStatusCode",
+                        "printedName": "TaboolaLite.TBLStatusCode",
+                        "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite13TBLStatusCodeO20tryingToReInitializeyA2CmF",
+            "mangledName": "$s11TaboolaLite13TBLStatusCodeO20tryingToReInitializeyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
             "name": "message",
             "printedName": "message",
             "children": [
@@ -1258,6 +1327,569 @@
         "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TBLReferralCode",
+        "printedName": "TBLReferralCode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "newsPage",
+            "printedName": "newsPage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLReferralCode.Type) -> TaboolaLite.TBLReferralCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLReferralCode",
+                    "printedName": "TaboolaLite.TBLReferralCode",
+                    "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLReferralCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLReferralCode",
+                        "printedName": "TaboolaLite.TBLReferralCode",
+                        "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO8newsPageyA2CmF",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO8newsPageyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "chatPage",
+            "printedName": "chatPage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLReferralCode.Type) -> TaboolaLite.TBLReferralCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLReferralCode",
+                    "printedName": "TaboolaLite.TBLReferralCode",
+                    "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLReferralCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLReferralCode",
+                        "printedName": "TaboolaLite.TBLReferralCode",
+                        "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO8chatPageyA2CmF",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO8chatPageyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "pushNotification",
+            "printedName": "pushNotification",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLReferralCode.Type) -> TaboolaLite.TBLReferralCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLReferralCode",
+                    "printedName": "TaboolaLite.TBLReferralCode",
+                    "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLReferralCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLReferralCode",
+                        "printedName": "TaboolaLite.TBLReferralCode",
+                        "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO16pushNotificationyA2CmF",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO16pushNotificationyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "referralName",
+            "printedName": "referralName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO12referralNameSSvp",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO12referralNameSSvp",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite15TBLReferralCodeO12referralNameSSvg",
+                "mangledName": "$s11TaboolaLite15TBLReferralCodeO12referralNameSSvg",
+                "moduleName": "TaboolaLite",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "from",
+            "printedName": "from(code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TBLReferralCode",
+                "printedName": "TaboolaLite.TBLReferralCode",
+                "usr": "s:11TaboolaLite15TBLReferralCodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO4from4codeACSi_tFZ",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO4from4codeACSi_tFZ",
+            "moduleName": "TaboolaLite",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fromString",
+            "printedName": "fromString(referralName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TBLReferralCode",
+                "printedName": "TaboolaLite.TBLReferralCode",
+                "usr": "s:11TaboolaLite15TBLReferralCodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO10fromString12referralNameACSSSg_tFZ",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO10fromString12referralNameACSSSg_tFZ",
+            "moduleName": "TaboolaLite",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TaboolaLite.TBLReferralCode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLReferralCode",
+                    "printedName": "TaboolaLite.TBLReferralCode",
+                    "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO8rawValueACSgSi_tcfc",
+            "moduleName": "TaboolaLite",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO8rawValueSivp",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO8rawValueSivp",
+            "moduleName": "TaboolaLite",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite15TBLReferralCodeO8rawValueSivg",
+                "mangledName": "$s11TaboolaLite15TBLReferralCodeO8rawValueSivg",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[TaboolaLite.TBLReferralCode]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLReferralCode",
+                    "printedName": "TaboolaLite.TBLReferralCode",
+                    "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO8allCasesSayACGvpZ",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO8allCasesSayACGvpZ",
+            "moduleName": "TaboolaLite",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[TaboolaLite.TBLReferralCode]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLReferralCode",
+                        "printedName": "TaboolaLite.TBLReferralCode",
+                        "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite15TBLReferralCodeO8allCasesSayACGvgZ",
+                "mangledName": "$s11TaboolaLite15TBLReferralCodeO8allCasesSayACGvgZ",
+                "moduleName": "TaboolaLite",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11TaboolaLite15TBLReferralCodeO",
+        "mangledName": "$s11TaboolaLite15TBLReferralCodeO",
+        "moduleName": "TaboolaLite",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[TaboolaLite.TBLReferralCode]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLReferralCode",
+                        "printedName": "TaboolaLite.TBLReferralCode",
+                        "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TBLNewsParams",
+        "printedName": "TBLNewsParams",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(referralType:journeyData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TBLNewsParams",
+                "printedName": "TaboolaLite.TBLNewsParams",
+                "usr": "s:11TaboolaLite13TBLNewsParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLReferralCode",
+                "printedName": "TaboolaLite.TBLReferralCode",
+                "hasDefaultArg": true,
+                "usr": "s:11TaboolaLite15TBLReferralCodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TaboolaLite13TBLNewsParamsV12referralType11journeyDataAcA15TBLReferralCodeO_SSSgtcfc",
+            "mangledName": "$s11TaboolaLite13TBLNewsParamsV12referralType11journeyDataAcA15TBLReferralCodeO_SSSgtcfc",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLNewsParams",
+                "printedName": "TaboolaLite.TBLNewsParams",
+                "usr": "s:11TaboolaLite13TBLNewsParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLNewsParams",
+                "printedName": "TaboolaLite.TBLNewsParams",
+                "usr": "s:11TaboolaLite13TBLNewsParamsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite13TBLNewsParamsV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11TaboolaLite13TBLNewsParamsV2eeoiySbAC_ACtFZ",
+            "moduleName": "TaboolaLite",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11TaboolaLite13TBLNewsParamsV",
+        "mangledName": "$s11TaboolaLite13TBLNewsParamsV",
+        "moduleName": "TaboolaLite",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -2062,772 +2694,821 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/TBLSDK.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLSDK.swift",
       "kind": "StringLiteral",
       "offset": 750,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/TBLSDK.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 824,
+      "offset": 867,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 77,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 103,
       "length": 3,
       "value": "400"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 137,
       "length": 3,
       "value": "503"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 169,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 199,
       "length": 2,
       "value": "-2"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 225,
       "length": 2,
       "value": "-3"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 257,
       "length": 2,
       "value": "-4"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 288,
       "length": 2,
       "value": "-5"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 310,
       "length": 2,
       "value": "-6"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 345,
+      "length": 2,
+      "value": "-7"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1300,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1353,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1398,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1438,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1486,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 1539,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 1544,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 1586,
       "length": 2,
-      "value": "30"
+      "value": "10"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 1624,
-      "length": 2,
-      "value": "30"
+      "length": 1,
+      "value": "1"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1663,
+      "offset": 1662,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1693,
+      "offset": 1692,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "StringLiteral",
       "offset": 152,
       "length": 21,
       "value": "\"com.taboola.network\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "FloatLiteral",
       "offset": 481,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "FloatLiteral",
       "offset": 584,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "IntegerLiteral",
       "offset": 731,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "BooleanLiteral",
       "offset": 781,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "BooleanLiteral",
       "offset": 831,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "BooleanLiteral",
       "offset": 881,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "IntegerLiteral",
       "offset": 1077,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "IntegerLiteral",
       "offset": 1081,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "IntegerLiteral",
       "offset": 1088,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "IntegerLiteral",
       "offset": 1108,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "IntegerLiteral",
       "offset": 1113,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "IntegerLiteral",
       "offset": 1120,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "BooleanLiteral",
       "offset": 1236,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "Array",
       "offset": 1590,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "StringLiteral",
       "offset": 1650,
       "length": 27,
       "value": "\"com.taboola.config.access\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "BooleanLiteral",
       "offset": 1800,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 385,
       "length": 15,
       "value": "\"taboolabridge\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 15,
       "value": "\"consoleLogger\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 493,
       "length": 28,
       "value": "\"window.onCollectedUserData\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 556,
       "length": 25,
       "value": "\"window.onContentRefresh\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 722,
       "length": 15,
       "value": "\"categoryClick\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 769,
       "length": 11,
       "value": "\"itemClick\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 813,
       "length": 12,
       "value": "\"pageClosed\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 854,
       "length": 8,
       "value": "\"loaded\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 897,
       "length": 14,
       "value": "\"failedToLoad\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 946,
       "length": 14,
       "value": "\"shareClicked\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 998,
       "length": 17,
       "value": "\"finishedRefresh\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 1084,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 1117,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLWebView.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLNewsParams.swift",
+      "kind": "IntegerLiteral",
+      "offset": 88,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLNewsParams.swift",
+      "kind": "IntegerLiteral",
+      "offset": 110,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLNewsParams.swift",
+      "kind": "IntegerLiteral",
+      "offset": 140,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 243,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLWebView.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebView.swift",
       "kind": "FloatLiteral",
       "offset": 398,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLWebViewController.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 620,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLWebViewController.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2509,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLWebViewController.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3791,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
       "kind": "Dictionary",
       "offset": 445,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
       "kind": "Dictionary",
       "offset": 515,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
       "kind": "StringLiteral",
       "offset": 642,
       "length": 28,
       "value": "\"com.taboola.webview.status\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
       "kind": "Dictionary",
       "offset": 771,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserData.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
       "kind": "StringLiteral",
       "offset": 567,
       "length": 5,
       "value": "\"lat\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserData.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
       "kind": "StringLiteral",
       "offset": 604,
       "length": 5,
       "value": "\"lon\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserData.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
       "kind": "StringLiteral",
       "offset": 637,
       "length": 4,
       "value": "\"wd\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserData.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
       "kind": "StringLiteral",
       "offset": 670,
       "length": 4,
       "value": "\"ht\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserData.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
       "kind": "StringLiteral",
       "offset": 705,
       "length": 10,
       "value": "\"keyboard\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 87,
       "length": 21,
       "value": "\"TBLInternalUserData\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 140,
       "length": 11,
       "value": "\"device_id\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 180,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 10,
       "value": "\"app_name\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 13,
       "value": "\"app_version\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 295,
       "length": 8,
       "value": "\"app_id\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 333,
       "length": 14,
       "value": "\"device_model\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 375,
       "length": 12,
       "value": "\"os_version\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 420,
       "length": 17,
       "value": "\"connection_type\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 472,
       "length": 20,
       "value": "\"device_screen_size\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 523,
       "length": 15,
       "value": "\"user_language\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 565,
       "length": 10,
       "value": "\"location\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 601,
       "length": 9,
       "value": "\"country\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 633,
       "length": 6,
       "value": "\"city\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 675,
       "length": 6,
       "value": "\"main\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 714,
       "length": 8,
       "value": "\"locale\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 756,
       "length": 9,
       "value": "\"display\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 800,
       "length": 10,
       "value": "\"keyboard\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 840,
       "length": 9,
       "value": "\"opt_out\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 881,
       "length": 15,
       "value": "\"deviceContext\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 920,
       "length": 7,
       "value": "\"email\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 958,
       "length": 14,
       "value": "\"globalUserId\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLUserDataCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLUserDataCollector.swift",
       "kind": "BooleanLiteral",
       "offset": 493,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/user_data\/TBLUserDataCollector.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLUserDataCollector.swift",
       "kind": "StringLiteral",
       "offset": 639,
       "length": 29,
       "value": "\"com.taboola.userdata.access\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLLogger.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 88,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLLogger.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 102,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLLogger.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 116,
       "length": 5,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLLogger.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 131,
       "length": 4,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLLogger.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
       "kind": "StringLiteral",
       "offset": 537,
       "length": 14,
       "value": "\"TBLSDKLogger\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLLogger.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
       "kind": "StringLiteral",
       "offset": 680,
       "length": 21,
       "value": "\"yyyy-MM-dd HH:mm:ss\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLReloadManager.swift",
-      "kind": "StringLiteral",
-      "offset": 101,
-      "length": 21,
-      "value": "\"tbl_app_usage_prefs\""
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 109,
+      "length": 2,
+      "value": "60"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLReloadManager.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
       "kind": "Dictionary",
-      "offset": 189,
+      "offset": 178,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLReloadManager.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
       "kind": "Dictionary",
-      "offset": 265,
+      "offset": 254,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLReloadManager.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 328,
+      "offset": 317,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLReloadManager.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 369,
+      "offset": 358,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLReloadManager.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 412,
+      "offset": 402,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLReloadManager.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 454,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 563,
+      "offset": 525,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLUtils.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2903,
+      "offset": 608,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 681,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5097,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLUtils.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 2906,
+      "offset": 5100,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLUtils.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 2920,
+      "offset": 5114,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLUtils.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 2923,
+      "offset": 5117,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLUtils.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 2936,
+      "offset": 5130,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLUtils.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 2939,
+      "offset": 5133,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/TaboolaLite\/Sources\/utils\/TBLUtils.swift",
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 2953,
+      "offset": 5147,
       "length": 3,
       "value": "1.0"
     }
