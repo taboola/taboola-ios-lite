@@ -38,7 +38,6 @@ public protocol OnTBLNewsListener : AnyObject {
   public func onResumeTaboolaNews()
   public func removeTaboolaNewsFromView()
   public func setLogLevel(_ logLevel: TaboolaLite.TBLLogLevel)
-  public func setCollectUserData(allowPersonalization: Swift.Bool, allowDeviceContext: Swift.Bool)
   public func updateReloadIntervals(_ reloadWebViewTimeMinute: Swift.Int? = nil, _ timerRepeatInterval: Swift.Int? = nil)
   @objc deinit
 }
@@ -88,7 +87,9 @@ public struct TBLNewsParams : Swift.Equatable {
 public class TBLUserData : Swift.Equatable {
   public var globalUserId: Swift.String
   public var device: Swift.String?
-  public init(email: Swift.String, globalUserId: Swift.String)
+  public var allowPersonalization: Swift.Bool
+  public var allowDeviceContext: Swift.Bool
+  public init(email: Swift.String, globalUserId: Swift.String, allowPersonalization: Swift.Bool = true, allowDeviceContext: Swift.Bool = true)
   public static func == (lhs: TaboolaLite.TBLUserData, rhs: TaboolaLite.TBLUserData) -> Swift.Bool
   @objc deinit
 }

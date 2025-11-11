@@ -42,7 +42,12 @@ The `TBLSDK.initialize` method must be called before using any other SDK functio
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     let publisherId = "your-publisher-id"
-    let userData = TBLUserData(email: email, globalUserId: globalUserId)
+    let userData = TBLUserData(
+        email: email,
+        globalUserId: globalUserId,
+        allowPersonalization: true,
+        allowDeviceContext: true
+    )
     let newsParams = TBLNewsParams() // Empty for standard flow
 
     TBLSDK.shared.initialize(publisherId: publisherId, data: userData, newsParams: newsParams, onTaboolaListener: OnTBLListener())
@@ -53,7 +58,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 * **Parameters**:
 
   * `publisherId`: A valid Taboola PublisherId (e.g., `publisherId`).
-  * `userData`: An instance of `TBLUserData` containing user-specific data.
+  * `userData`: An instance of `TBLUserData` containing user-specific data (email, globalUserId, and consent preferences).
   * `newsParams`: An instance of `TBLNewsParams` containing referral data (pass empty `TBLNewsParams()` for standard flow).
   * `onTaboolaListener`: An implementation of `OnTBLListener` for lifecycle callbacks.
 
@@ -87,13 +92,19 @@ You can update user data at any time. When `setUserData` is called, the WebView 
 
 ```swift
 let userData = TBLUserData(
-    "hashedEmail1",
-    "gender",
-    "age",
-    "userInterestAndIntent"
+    email: "user@example.com",
+    globalUserId: "user-123",
+    allowPersonalization: true,  // Set to false if user opts out
+    allowDeviceContext: true      // Set to false to limit device data collection
 )
 TBLSDK.shared.setUserData(userData)
 ```
+
+* **Parameters**:
+  * `email`: User's email address
+  * `globalUserId`: Unique identifier for the user
+  * `allowPersonalization`: Controls whether personalized recommendations are enabled (default: true)
+  * `allowDeviceContext`: Controls whether device context data is collected (default: true)
 
 ### 5. Set News Parameters (Optional)
 
@@ -142,24 +153,6 @@ func applicationWillTerminate(_ application: UIApplication) {
 ```
 
 This ensures that all SDK resources are properly released when the app is terminated.
-
----
-
-
-### Set User Data Collection Preference
-
-Use this method to enable or disable user data collection based on user consent.
-This method helps control whether the SDK collects user data, adhering to user privacy preferences.
-The function can be called **before or after** `TBLSDK.initialize`
-
-```swift
-TBLSDK.shared.setCollectUserData(allowPersonalization: Bool, allowDeviceContext: Bool)
-```
-- **Parameters**:
-  - `allowPersonalization`: A boolean indicating whether the allowes personaliztion (true) or not (false).
-  - `allowDeviceContext`: A boolean indicating whether the allowes collecting device context (true) or not (false).
-
----
 
 ---
 
@@ -264,6 +257,10 @@ TBLSDK.shared.updateReloadIntervals(
 ```
 
 ## Changelog
+
+### Version 1.4.0
+- `TBLUserData` now includes `allowPersonalization` and `allowDeviceContext` parameters (both default to `true`) to manage user data collection preferences.
+- Removed `setCollectUserData()` function - use `TBLUserData` consent parameters instead.
 
 ### Version 1.3.0
 - Framework is now static (changed from dynamic).
