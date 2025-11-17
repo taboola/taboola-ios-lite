@@ -258,6 +258,9 @@ TBLSDK.shared.updateReloadIntervals(
 
 ## Changelog
 
+### Version 1.4.1
+- Framework is now dynamic (changed from static).
+
 ### Version 1.4.0
 - `TBLUserData` now includes `allowPersonalization` and `allowDeviceContext` parameters (both default to `true`) to manage user data collection preferences.
 - Removed `setCollectUserData()` function - use `TBLUserData` consent parameters instead.
