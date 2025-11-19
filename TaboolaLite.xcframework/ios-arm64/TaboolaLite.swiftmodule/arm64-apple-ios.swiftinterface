@@ -1,0 +1,116 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name TaboolaLite -package-name sdk
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+import AdSupport
+import CoreLocation
+import Foundation
+import Network
+import SafariServices
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import os
+public protocol OnTBLListener : AnyObject {
+  func onTaboolaSharePressed(url: Swift.String)
+  func onTaboolaInitializationComplete(statusCode: TaboolaLite.TBLStatusCode)
+  func onTaboolaLoadComplete(statusCode: TaboolaLite.TBLStatusCode)
+}
+public protocol OnTBLNewsListener : AnyObject {
+  func onTaboolaNewsSetupComplete(statusCode: TaboolaLite.TBLStatusCode)
+  func onTaboolaNewsRefreshComplete(statusCode: TaboolaLite.TBLStatusCode)
+  func onTaboolaNewsClickComplete(statusCode: TaboolaLite.TBLStatusCode)
+}
+@_hasMissingDesignatedInitializers public class TBLSDK {
+  public static let shared: TaboolaLite.TBLSDK
+  public func initialize(publisherId: Swift.String, data: TaboolaLite.TBLUserData, newsParams: TaboolaLite.TBLNewsParams, onTaboolaListener: (any TaboolaLite.OnTBLListener)? = nil)
+  public func deinitialize()
+  public func setupTaboolaNews(view: UIKit.UIView, onTBLNewsListener: any TaboolaLite.OnTBLNewsListener)
+  public func setUserData(_ userData: TaboolaLite.TBLUserData)
+  public func setNewsParams(_ newsParams: TaboolaLite.TBLNewsParams)
+  public func onScrollToTopTaboolaNews()
+  public func onClickedTaboolaItem(url: Swift.String, viewController: UIKit.UIViewController)
+  public func onPauseTaboolaNews()
+  public func onResumeTaboolaNews()
+  public func removeTaboolaNewsFromView()
+  public func setLogLevel(_ logLevel: TaboolaLite.TBLLogLevel)
+  public func updateReloadIntervals(_ reloadWebViewTimeMinute: Swift.Int? = nil, _ timerRepeatInterval: Swift.Int? = nil)
+  @objc deinit
+}
+public enum TBLStatusCode : Swift.Int {
+  case success
+  case badRequest
+  case serviceUnavailable
+  case publisherInvalid
+  case webViewNotFound
+  case sdkDisabled
+  case sdkNotInitialized
+  case invalidViewGroup
+  case timeout
+  case tryingToReInitialize
+  public var message: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum TBLReferralCode : Swift.Int, Swift.CaseIterable {
+  case newsPage
+  case chatPage
+  case pushNotification
+  public var referralName: Swift.String {
+    get
+  }
+  public static func from(code: Swift.Int) -> TaboolaLite.TBLReferralCode
+  public static func fromString(referralName: Swift.String?) -> TaboolaLite.TBLReferralCode
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [TaboolaLite.TBLReferralCode]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [TaboolaLite.TBLReferralCode] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct TBLNewsParams : Swift.Equatable {
+  public init(referralType: TaboolaLite.TBLReferralCode = .newsPage, journeyData: Swift.String? = nil)
+  public static func == (a: TaboolaLite.TBLNewsParams, b: TaboolaLite.TBLNewsParams) -> Swift.Bool
+}
+public class TBLUserData : Swift.Equatable {
+  public var globalUserId: Swift.String
+  public var device: Swift.String?
+  public var allowPersonalization: Swift.Bool
+  public var allowDeviceContext: Swift.Bool
+  public init(email: Swift.String, globalUserId: Swift.String, allowPersonalization: Swift.Bool = true, allowDeviceContext: Swift.Bool = true)
+  public static func == (lhs: TaboolaLite.TBLUserData, rhs: TaboolaLite.TBLUserData) -> Swift.Bool
+  @objc deinit
+}
+public enum TBLLogLevel : Swift.Int {
+  case debug
+  case info
+  case warn
+  case error
+  case none
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension TaboolaLite.TBLStatusCode : Swift.Equatable {}
+extension TaboolaLite.TBLStatusCode : Swift.Hashable {}
+extension TaboolaLite.TBLStatusCode : Swift.RawRepresentable {}
+extension TaboolaLite.TBLReferralCode : Swift.Equatable {}
+extension TaboolaLite.TBLReferralCode : Swift.Hashable {}
+extension TaboolaLite.TBLReferralCode : Swift.RawRepresentable {}
+extension TaboolaLite.TBLLogLevel : Swift.Equatable {}
+extension TaboolaLite.TBLLogLevel : Swift.Hashable {}
+extension TaboolaLite.TBLLogLevel : Swift.RawRepresentable {}

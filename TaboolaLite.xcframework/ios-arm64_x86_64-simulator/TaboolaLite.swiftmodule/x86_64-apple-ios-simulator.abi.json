@@ -1,0 +1,3658 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TaboolaLite",
+    "printedName": "TaboolaLite",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OnTBLListener",
+        "printedName": "OnTBLListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onTaboolaSharePressed",
+            "printedName": "onTaboolaSharePressed(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite13OnTBLListenerP02onA12SharePressed3urlySS_tF",
+            "mangledName": "$s11TaboolaLite13OnTBLListenerP02onA12SharePressed3urlySS_tF",
+            "moduleName": "TaboolaLite",
+            "genericSig": "<τ_0_0 where τ_0_0 : TaboolaLite.OnTBLListener>",
+            "sugared_genericSig": "<Self where Self : TaboolaLite.OnTBLListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTaboolaInitializationComplete",
+            "printedName": "onTaboolaInitializationComplete(statusCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLStatusCode",
+                "printedName": "TaboolaLite.TBLStatusCode",
+                "usr": "s:11TaboolaLite13TBLStatusCodeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite13OnTBLListenerP02onA22InitializationComplete10statusCodeyAA09TBLStatusI0O_tF",
+            "mangledName": "$s11TaboolaLite13OnTBLListenerP02onA22InitializationComplete10statusCodeyAA09TBLStatusI0O_tF",
+            "moduleName": "TaboolaLite",
+            "genericSig": "<τ_0_0 where τ_0_0 : TaboolaLite.OnTBLListener>",
+            "sugared_genericSig": "<Self where Self : TaboolaLite.OnTBLListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTaboolaLoadComplete",
+            "printedName": "onTaboolaLoadComplete(statusCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLStatusCode",
+                "printedName": "TaboolaLite.TBLStatusCode",
+                "usr": "s:11TaboolaLite13TBLStatusCodeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite13OnTBLListenerP02onA12LoadComplete10statusCodeyAA09TBLStatusI0O_tF",
+            "mangledName": "$s11TaboolaLite13OnTBLListenerP02onA12LoadComplete10statusCodeyAA09TBLStatusI0O_tF",
+            "moduleName": "TaboolaLite",
+            "genericSig": "<τ_0_0 where τ_0_0 : TaboolaLite.OnTBLListener>",
+            "sugared_genericSig": "<Self where Self : TaboolaLite.OnTBLListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11TaboolaLite13OnTBLListenerP",
+        "mangledName": "$s11TaboolaLite13OnTBLListenerP",
+        "moduleName": "TaboolaLite",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OnTBLNewsListener",
+        "printedName": "OnTBLNewsListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onTaboolaNewsSetupComplete",
+            "printedName": "onTaboolaNewsSetupComplete(statusCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLStatusCode",
+                "printedName": "TaboolaLite.TBLStatusCode",
+                "usr": "s:11TaboolaLite13TBLStatusCodeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite17OnTBLNewsListenerP02onA17NewsSetupComplete10statusCodeyAA09TBLStatusK0O_tF",
+            "mangledName": "$s11TaboolaLite17OnTBLNewsListenerP02onA17NewsSetupComplete10statusCodeyAA09TBLStatusK0O_tF",
+            "moduleName": "TaboolaLite",
+            "genericSig": "<τ_0_0 where τ_0_0 : TaboolaLite.OnTBLNewsListener>",
+            "sugared_genericSig": "<Self where Self : TaboolaLite.OnTBLNewsListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTaboolaNewsRefreshComplete",
+            "printedName": "onTaboolaNewsRefreshComplete(statusCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLStatusCode",
+                "printedName": "TaboolaLite.TBLStatusCode",
+                "usr": "s:11TaboolaLite13TBLStatusCodeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite17OnTBLNewsListenerP02onA19NewsRefreshComplete10statusCodeyAA09TBLStatusK0O_tF",
+            "mangledName": "$s11TaboolaLite17OnTBLNewsListenerP02onA19NewsRefreshComplete10statusCodeyAA09TBLStatusK0O_tF",
+            "moduleName": "TaboolaLite",
+            "genericSig": "<τ_0_0 where τ_0_0 : TaboolaLite.OnTBLNewsListener>",
+            "sugared_genericSig": "<Self where Self : TaboolaLite.OnTBLNewsListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTaboolaNewsClickComplete",
+            "printedName": "onTaboolaNewsClickComplete(statusCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLStatusCode",
+                "printedName": "TaboolaLite.TBLStatusCode",
+                "usr": "s:11TaboolaLite13TBLStatusCodeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite17OnTBLNewsListenerP02onA17NewsClickComplete10statusCodeyAA09TBLStatusK0O_tF",
+            "mangledName": "$s11TaboolaLite17OnTBLNewsListenerP02onA17NewsClickComplete10statusCodeyAA09TBLStatusK0O_tF",
+            "moduleName": "TaboolaLite",
+            "genericSig": "<τ_0_0 where τ_0_0 : TaboolaLite.OnTBLNewsListener>",
+            "sugared_genericSig": "<Self where Self : TaboolaLite.OnTBLNewsListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11TaboolaLite17OnTBLNewsListenerP",
+        "mangledName": "$s11TaboolaLite17OnTBLNewsListenerP",
+        "moduleName": "TaboolaLite",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TBLSDK",
+        "printedName": "TBLSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TBLSDK",
+                "printedName": "TaboolaLite.TBLSDK",
+                "usr": "s:11TaboolaLite6TBLSDKC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TaboolaLite6TBLSDKC6sharedACvpZ",
+            "mangledName": "$s11TaboolaLite6TBLSDKC6sharedACvpZ",
+            "moduleName": "TaboolaLite",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLSDK",
+                    "printedName": "TaboolaLite.TBLSDK",
+                    "usr": "s:11TaboolaLite6TBLSDKC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite6TBLSDKC6sharedACvgZ",
+                "mangledName": "$s11TaboolaLite6TBLSDKC6sharedACvgZ",
+                "moduleName": "TaboolaLite",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(publisherId:data:newsParams:onTaboolaListener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLUserData",
+                "printedName": "TaboolaLite.TBLUserData",
+                "usr": "s:11TaboolaLite11TBLUserDataC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLNewsParams",
+                "printedName": "TaboolaLite.TBLNewsParams",
+                "usr": "s:11TaboolaLite13TBLNewsParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any TaboolaLite.OnTBLListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OnTBLListener",
+                    "printedName": "any TaboolaLite.OnTBLListener",
+                    "usr": "s:11TaboolaLite13OnTBLListenerP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite6TBLSDKC10initialize11publisherId4data10newsParams02onA8ListenerySS_AA11TBLUserDataCAA07TBLNewsI0VAA13OnTBLListener_pSgtF",
+            "mangledName": "$s11TaboolaLite6TBLSDKC10initialize11publisherId4data10newsParams02onA8ListenerySS_AA11TBLUserDataCAA07TBLNewsI0VAA13OnTBLListener_pSgtF",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deinitialize",
+            "printedName": "deinitialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite6TBLSDKC12deinitializeyyF",
+            "mangledName": "$s11TaboolaLite6TBLSDKC12deinitializeyyF",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupTaboolaNews",
+            "printedName": "setupTaboolaNews(view:onTBLNewsListener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OnTBLNewsListener",
+                "printedName": "any TaboolaLite.OnTBLNewsListener",
+                "usr": "s:11TaboolaLite17OnTBLNewsListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite6TBLSDKC05setupA4News4view17onTBLNewsListenerySo6UIViewC_AA02OnhI0_ptF",
+            "mangledName": "$s11TaboolaLite6TBLSDKC05setupA4News4view17onTBLNewsListenerySo6UIViewC_AA02OnhI0_ptF",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserData",
+            "printedName": "setUserData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLUserData",
+                "printedName": "TaboolaLite.TBLUserData",
+                "usr": "s:11TaboolaLite11TBLUserDataC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite6TBLSDKC11setUserDatayyAA07TBLUserF0CF",
+            "mangledName": "$s11TaboolaLite6TBLSDKC11setUserDatayyAA07TBLUserF0CF",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNewsParams",
+            "printedName": "setNewsParams(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLNewsParams",
+                "printedName": "TaboolaLite.TBLNewsParams",
+                "usr": "s:11TaboolaLite13TBLNewsParamsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite6TBLSDKC13setNewsParamsyyAA07TBLNewsF0VF",
+            "mangledName": "$s11TaboolaLite6TBLSDKC13setNewsParamsyyAA07TBLNewsF0VF",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onScrollToTopTaboolaNews",
+            "printedName": "onScrollToTopTaboolaNews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite6TBLSDKC013onScrollToTopA4NewsyyF",
+            "mangledName": "$s11TaboolaLite6TBLSDKC013onScrollToTopA4NewsyyF",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onClickedTaboolaItem",
+            "printedName": "onClickedTaboolaItem(url:viewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite6TBLSDKC09onClickedA4Item3url14viewControllerySS_So06UIViewI0CtF",
+            "mangledName": "$s11TaboolaLite6TBLSDKC09onClickedA4Item3url14viewControllerySS_So06UIViewI0CtF",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPauseTaboolaNews",
+            "printedName": "onPauseTaboolaNews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite6TBLSDKC07onPauseA4NewsyyF",
+            "mangledName": "$s11TaboolaLite6TBLSDKC07onPauseA4NewsyyF",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onResumeTaboolaNews",
+            "printedName": "onResumeTaboolaNews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite6TBLSDKC08onResumeA4NewsyyF",
+            "mangledName": "$s11TaboolaLite6TBLSDKC08onResumeA4NewsyyF",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeTaboolaNewsFromView",
+            "printedName": "removeTaboolaNewsFromView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite6TBLSDKC06removeA12NewsFromViewyyF",
+            "mangledName": "$s11TaboolaLite6TBLSDKC06removeA12NewsFromViewyyF",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLogLevel",
+            "printedName": "setLogLevel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLLogLevel",
+                "printedName": "TaboolaLite.TBLLogLevel",
+                "usr": "s:11TaboolaLite11TBLLogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite6TBLSDKC11setLogLevelyyAA06TBLLogF0OF",
+            "mangledName": "$s11TaboolaLite6TBLSDKC11setLogLevelyyAA06TBLLogF0OF",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateReloadIntervals",
+            "printedName": "updateReloadIntervals(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite6TBLSDKC21updateReloadIntervalsyySiSg_AEtF",
+            "mangledName": "$s11TaboolaLite6TBLSDKC21updateReloadIntervalsyySiSg_AEtF",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11TaboolaLite6TBLSDKC",
+        "mangledName": "$s11TaboolaLite6TBLSDKC",
+        "moduleName": "TaboolaLite",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TBLStatusCode",
+        "printedName": "TBLStatusCode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLStatusCode.Type) -> TaboolaLite.TBLStatusCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLStatusCode",
+                    "printedName": "TaboolaLite.TBLStatusCode",
+                    "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLStatusCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLStatusCode",
+                        "printedName": "TaboolaLite.TBLStatusCode",
+                        "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite13TBLStatusCodeO7successyA2CmF",
+            "mangledName": "$s11TaboolaLite13TBLStatusCodeO7successyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "badRequest",
+            "printedName": "badRequest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLStatusCode.Type) -> TaboolaLite.TBLStatusCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLStatusCode",
+                    "printedName": "TaboolaLite.TBLStatusCode",
+                    "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLStatusCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLStatusCode",
+                        "printedName": "TaboolaLite.TBLStatusCode",
+                        "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite13TBLStatusCodeO10badRequestyA2CmF",
+            "mangledName": "$s11TaboolaLite13TBLStatusCodeO10badRequestyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "serviceUnavailable",
+            "printedName": "serviceUnavailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLStatusCode.Type) -> TaboolaLite.TBLStatusCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLStatusCode",
+                    "printedName": "TaboolaLite.TBLStatusCode",
+                    "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLStatusCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLStatusCode",
+                        "printedName": "TaboolaLite.TBLStatusCode",
+                        "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite13TBLStatusCodeO18serviceUnavailableyA2CmF",
+            "mangledName": "$s11TaboolaLite13TBLStatusCodeO18serviceUnavailableyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "publisherInvalid",
+            "printedName": "publisherInvalid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLStatusCode.Type) -> TaboolaLite.TBLStatusCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLStatusCode",
+                    "printedName": "TaboolaLite.TBLStatusCode",
+                    "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLStatusCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLStatusCode",
+                        "printedName": "TaboolaLite.TBLStatusCode",
+                        "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite13TBLStatusCodeO16publisherInvalidyA2CmF",
+            "mangledName": "$s11TaboolaLite13TBLStatusCodeO16publisherInvalidyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "webViewNotFound",
+            "printedName": "webViewNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLStatusCode.Type) -> TaboolaLite.TBLStatusCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLStatusCode",
+                    "printedName": "TaboolaLite.TBLStatusCode",
+                    "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLStatusCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLStatusCode",
+                        "printedName": "TaboolaLite.TBLStatusCode",
+                        "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite13TBLStatusCodeO15webViewNotFoundyA2CmF",
+            "mangledName": "$s11TaboolaLite13TBLStatusCodeO15webViewNotFoundyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "sdkDisabled",
+            "printedName": "sdkDisabled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLStatusCode.Type) -> TaboolaLite.TBLStatusCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLStatusCode",
+                    "printedName": "TaboolaLite.TBLStatusCode",
+                    "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLStatusCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLStatusCode",
+                        "printedName": "TaboolaLite.TBLStatusCode",
+                        "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite13TBLStatusCodeO11sdkDisabledyA2CmF",
+            "mangledName": "$s11TaboolaLite13TBLStatusCodeO11sdkDisabledyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "sdkNotInitialized",
+            "printedName": "sdkNotInitialized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLStatusCode.Type) -> TaboolaLite.TBLStatusCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLStatusCode",
+                    "printedName": "TaboolaLite.TBLStatusCode",
+                    "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLStatusCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLStatusCode",
+                        "printedName": "TaboolaLite.TBLStatusCode",
+                        "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite13TBLStatusCodeO17sdkNotInitializedyA2CmF",
+            "mangledName": "$s11TaboolaLite13TBLStatusCodeO17sdkNotInitializedyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidViewGroup",
+            "printedName": "invalidViewGroup",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLStatusCode.Type) -> TaboolaLite.TBLStatusCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLStatusCode",
+                    "printedName": "TaboolaLite.TBLStatusCode",
+                    "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLStatusCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLStatusCode",
+                        "printedName": "TaboolaLite.TBLStatusCode",
+                        "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite13TBLStatusCodeO16invalidViewGroupyA2CmF",
+            "mangledName": "$s11TaboolaLite13TBLStatusCodeO16invalidViewGroupyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "timeout",
+            "printedName": "timeout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLStatusCode.Type) -> TaboolaLite.TBLStatusCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLStatusCode",
+                    "printedName": "TaboolaLite.TBLStatusCode",
+                    "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLStatusCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLStatusCode",
+                        "printedName": "TaboolaLite.TBLStatusCode",
+                        "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite13TBLStatusCodeO7timeoutyA2CmF",
+            "mangledName": "$s11TaboolaLite13TBLStatusCodeO7timeoutyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "tryingToReInitialize",
+            "printedName": "tryingToReInitialize",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLStatusCode.Type) -> TaboolaLite.TBLStatusCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLStatusCode",
+                    "printedName": "TaboolaLite.TBLStatusCode",
+                    "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLStatusCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLStatusCode",
+                        "printedName": "TaboolaLite.TBLStatusCode",
+                        "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite13TBLStatusCodeO20tryingToReInitializeyA2CmF",
+            "mangledName": "$s11TaboolaLite13TBLStatusCodeO20tryingToReInitializeyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TaboolaLite13TBLStatusCodeO7messageSSvp",
+            "mangledName": "$s11TaboolaLite13TBLStatusCodeO7messageSSvp",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite13TBLStatusCodeO7messageSSvg",
+                "mangledName": "$s11TaboolaLite13TBLStatusCodeO7messageSSvg",
+                "moduleName": "TaboolaLite",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TaboolaLite.TBLStatusCode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLStatusCode",
+                    "printedName": "TaboolaLite.TBLStatusCode",
+                    "usr": "s:11TaboolaLite13TBLStatusCodeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TaboolaLite13TBLStatusCodeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s11TaboolaLite13TBLStatusCodeO8rawValueACSgSi_tcfc",
+            "moduleName": "TaboolaLite",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TaboolaLite13TBLStatusCodeO8rawValueSivp",
+            "mangledName": "$s11TaboolaLite13TBLStatusCodeO8rawValueSivp",
+            "moduleName": "TaboolaLite",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite13TBLStatusCodeO8rawValueSivg",
+                "mangledName": "$s11TaboolaLite13TBLStatusCodeO8rawValueSivg",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11TaboolaLite13TBLStatusCodeO",
+        "mangledName": "$s11TaboolaLite13TBLStatusCodeO",
+        "moduleName": "TaboolaLite",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TBLReferralCode",
+        "printedName": "TBLReferralCode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "newsPage",
+            "printedName": "newsPage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLReferralCode.Type) -> TaboolaLite.TBLReferralCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLReferralCode",
+                    "printedName": "TaboolaLite.TBLReferralCode",
+                    "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLReferralCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLReferralCode",
+                        "printedName": "TaboolaLite.TBLReferralCode",
+                        "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO8newsPageyA2CmF",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO8newsPageyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "chatPage",
+            "printedName": "chatPage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLReferralCode.Type) -> TaboolaLite.TBLReferralCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLReferralCode",
+                    "printedName": "TaboolaLite.TBLReferralCode",
+                    "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLReferralCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLReferralCode",
+                        "printedName": "TaboolaLite.TBLReferralCode",
+                        "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO8chatPageyA2CmF",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO8chatPageyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "pushNotification",
+            "printedName": "pushNotification",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLReferralCode.Type) -> TaboolaLite.TBLReferralCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLReferralCode",
+                    "printedName": "TaboolaLite.TBLReferralCode",
+                    "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLReferralCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLReferralCode",
+                        "printedName": "TaboolaLite.TBLReferralCode",
+                        "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO16pushNotificationyA2CmF",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO16pushNotificationyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "referralName",
+            "printedName": "referralName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO12referralNameSSvp",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO12referralNameSSvp",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite15TBLReferralCodeO12referralNameSSvg",
+                "mangledName": "$s11TaboolaLite15TBLReferralCodeO12referralNameSSvg",
+                "moduleName": "TaboolaLite",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "from",
+            "printedName": "from(code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TBLReferralCode",
+                "printedName": "TaboolaLite.TBLReferralCode",
+                "usr": "s:11TaboolaLite15TBLReferralCodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO4from4codeACSi_tFZ",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO4from4codeACSi_tFZ",
+            "moduleName": "TaboolaLite",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fromString",
+            "printedName": "fromString(referralName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TBLReferralCode",
+                "printedName": "TaboolaLite.TBLReferralCode",
+                "usr": "s:11TaboolaLite15TBLReferralCodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO10fromString12referralNameACSSSg_tFZ",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO10fromString12referralNameACSSSg_tFZ",
+            "moduleName": "TaboolaLite",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TaboolaLite.TBLReferralCode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLReferralCode",
+                    "printedName": "TaboolaLite.TBLReferralCode",
+                    "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO8rawValueACSgSi_tcfc",
+            "moduleName": "TaboolaLite",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO8rawValueSivp",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO8rawValueSivp",
+            "moduleName": "TaboolaLite",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite15TBLReferralCodeO8rawValueSivg",
+                "mangledName": "$s11TaboolaLite15TBLReferralCodeO8rawValueSivg",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[TaboolaLite.TBLReferralCode]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLReferralCode",
+                    "printedName": "TaboolaLite.TBLReferralCode",
+                    "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO8allCasesSayACGvpZ",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO8allCasesSayACGvpZ",
+            "moduleName": "TaboolaLite",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[TaboolaLite.TBLReferralCode]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLReferralCode",
+                        "printedName": "TaboolaLite.TBLReferralCode",
+                        "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite15TBLReferralCodeO8allCasesSayACGvgZ",
+                "mangledName": "$s11TaboolaLite15TBLReferralCodeO8allCasesSayACGvgZ",
+                "moduleName": "TaboolaLite",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11TaboolaLite15TBLReferralCodeO",
+        "mangledName": "$s11TaboolaLite15TBLReferralCodeO",
+        "moduleName": "TaboolaLite",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[TaboolaLite.TBLReferralCode]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLReferralCode",
+                        "printedName": "TaboolaLite.TBLReferralCode",
+                        "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TBLNewsParams",
+        "printedName": "TBLNewsParams",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(referralType:journeyData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TBLNewsParams",
+                "printedName": "TaboolaLite.TBLNewsParams",
+                "usr": "s:11TaboolaLite13TBLNewsParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLReferralCode",
+                "printedName": "TaboolaLite.TBLReferralCode",
+                "hasDefaultArg": true,
+                "usr": "s:11TaboolaLite15TBLReferralCodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TaboolaLite13TBLNewsParamsV12referralType11journeyDataAcA15TBLReferralCodeO_SSSgtcfc",
+            "mangledName": "$s11TaboolaLite13TBLNewsParamsV12referralType11journeyDataAcA15TBLReferralCodeO_SSSgtcfc",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLNewsParams",
+                "printedName": "TaboolaLite.TBLNewsParams",
+                "usr": "s:11TaboolaLite13TBLNewsParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLNewsParams",
+                "printedName": "TaboolaLite.TBLNewsParams",
+                "usr": "s:11TaboolaLite13TBLNewsParamsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite13TBLNewsParamsV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11TaboolaLite13TBLNewsParamsV2eeoiySbAC_ACtFZ",
+            "moduleName": "TaboolaLite",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11TaboolaLite13TBLNewsParamsV",
+        "mangledName": "$s11TaboolaLite13TBLNewsParamsV",
+        "moduleName": "TaboolaLite",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TBLUserData",
+        "printedName": "TBLUserData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "globalUserId",
+            "printedName": "globalUserId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TaboolaLite11TBLUserDataC12globalUserIdSSvp",
+            "mangledName": "$s11TaboolaLite11TBLUserDataC12globalUserIdSSvp",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite11TBLUserDataC12globalUserIdSSvg",
+                "mangledName": "$s11TaboolaLite11TBLUserDataC12globalUserIdSSvg",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite11TBLUserDataC12globalUserIdSSvs",
+                "mangledName": "$s11TaboolaLite11TBLUserDataC12globalUserIdSSvs",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite11TBLUserDataC12globalUserIdSSvM",
+                "mangledName": "$s11TaboolaLite11TBLUserDataC12globalUserIdSSvM",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "device",
+            "printedName": "device",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TaboolaLite11TBLUserDataC6deviceSSSgvp",
+            "mangledName": "$s11TaboolaLite11TBLUserDataC6deviceSSSgvp",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite11TBLUserDataC6deviceSSSgvg",
+                "mangledName": "$s11TaboolaLite11TBLUserDataC6deviceSSSgvg",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite11TBLUserDataC6deviceSSSgvs",
+                "mangledName": "$s11TaboolaLite11TBLUserDataC6deviceSSSgvs",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite11TBLUserDataC6deviceSSSgvM",
+                "mangledName": "$s11TaboolaLite11TBLUserDataC6deviceSSSgvM",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allowPersonalization",
+            "printedName": "allowPersonalization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TaboolaLite11TBLUserDataC20allowPersonalizationSbvp",
+            "mangledName": "$s11TaboolaLite11TBLUserDataC20allowPersonalizationSbvp",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite11TBLUserDataC20allowPersonalizationSbvg",
+                "mangledName": "$s11TaboolaLite11TBLUserDataC20allowPersonalizationSbvg",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite11TBLUserDataC20allowPersonalizationSbvs",
+                "mangledName": "$s11TaboolaLite11TBLUserDataC20allowPersonalizationSbvs",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite11TBLUserDataC20allowPersonalizationSbvM",
+                "mangledName": "$s11TaboolaLite11TBLUserDataC20allowPersonalizationSbvM",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allowDeviceContext",
+            "printedName": "allowDeviceContext",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TaboolaLite11TBLUserDataC18allowDeviceContextSbvp",
+            "mangledName": "$s11TaboolaLite11TBLUserDataC18allowDeviceContextSbvp",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite11TBLUserDataC18allowDeviceContextSbvg",
+                "mangledName": "$s11TaboolaLite11TBLUserDataC18allowDeviceContextSbvg",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite11TBLUserDataC18allowDeviceContextSbvs",
+                "mangledName": "$s11TaboolaLite11TBLUserDataC18allowDeviceContextSbvs",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite11TBLUserDataC18allowDeviceContextSbvM",
+                "mangledName": "$s11TaboolaLite11TBLUserDataC18allowDeviceContextSbvM",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(email:globalUserId:allowPersonalization:allowDeviceContext:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TBLUserData",
+                "printedName": "TaboolaLite.TBLUserData",
+                "usr": "s:11TaboolaLite11TBLUserDataC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TaboolaLite11TBLUserDataC5email12globalUserId20allowPersonalization0I13DeviceContextACSS_SSS2btcfc",
+            "mangledName": "$s11TaboolaLite11TBLUserDataC5email12globalUserId20allowPersonalization0I13DeviceContextACSS_SSS2btcfc",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLUserData",
+                "printedName": "TaboolaLite.TBLUserData",
+                "usr": "s:11TaboolaLite11TBLUserDataC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TBLUserData",
+                "printedName": "TaboolaLite.TBLUserData",
+                "usr": "s:11TaboolaLite11TBLUserDataC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite11TBLUserDataC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11TaboolaLite11TBLUserDataC2eeoiySbAC_ACtFZ",
+            "moduleName": "TaboolaLite",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11TaboolaLite11TBLUserDataC",
+        "mangledName": "$s11TaboolaLite11TBLUserDataC",
+        "moduleName": "TaboolaLite",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TBLLogLevel",
+        "printedName": "TBLLogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLLogLevel.Type) -> TaboolaLite.TBLLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLLogLevel",
+                    "printedName": "TaboolaLite.TBLLogLevel",
+                    "usr": "s:11TaboolaLite11TBLLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLLogLevel",
+                        "printedName": "TaboolaLite.TBLLogLevel",
+                        "usr": "s:11TaboolaLite11TBLLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite11TBLLogLevelO5debugyA2CmF",
+            "mangledName": "$s11TaboolaLite11TBLLogLevelO5debugyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLLogLevel.Type) -> TaboolaLite.TBLLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLLogLevel",
+                    "printedName": "TaboolaLite.TBLLogLevel",
+                    "usr": "s:11TaboolaLite11TBLLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLLogLevel",
+                        "printedName": "TaboolaLite.TBLLogLevel",
+                        "usr": "s:11TaboolaLite11TBLLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite11TBLLogLevelO4infoyA2CmF",
+            "mangledName": "$s11TaboolaLite11TBLLogLevelO4infoyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "warn",
+            "printedName": "warn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLLogLevel.Type) -> TaboolaLite.TBLLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLLogLevel",
+                    "printedName": "TaboolaLite.TBLLogLevel",
+                    "usr": "s:11TaboolaLite11TBLLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLLogLevel",
+                        "printedName": "TaboolaLite.TBLLogLevel",
+                        "usr": "s:11TaboolaLite11TBLLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite11TBLLogLevelO4warnyA2CmF",
+            "mangledName": "$s11TaboolaLite11TBLLogLevelO4warnyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLLogLevel.Type) -> TaboolaLite.TBLLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLLogLevel",
+                    "printedName": "TaboolaLite.TBLLogLevel",
+                    "usr": "s:11TaboolaLite11TBLLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLLogLevel",
+                        "printedName": "TaboolaLite.TBLLogLevel",
+                        "usr": "s:11TaboolaLite11TBLLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite11TBLLogLevelO5erroryA2CmF",
+            "mangledName": "$s11TaboolaLite11TBLLogLevelO5erroryA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLLogLevel.Type) -> TaboolaLite.TBLLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLLogLevel",
+                    "printedName": "TaboolaLite.TBLLogLevel",
+                    "usr": "s:11TaboolaLite11TBLLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLLogLevel",
+                        "printedName": "TaboolaLite.TBLLogLevel",
+                        "usr": "s:11TaboolaLite11TBLLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite11TBLLogLevelO4noneyA2CmF",
+            "mangledName": "$s11TaboolaLite11TBLLogLevelO4noneyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TaboolaLite.TBLLogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLLogLevel",
+                    "printedName": "TaboolaLite.TBLLogLevel",
+                    "usr": "s:11TaboolaLite11TBLLogLevelO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TaboolaLite11TBLLogLevelO8rawValueACSgSi_tcfc",
+            "mangledName": "$s11TaboolaLite11TBLLogLevelO8rawValueACSgSi_tcfc",
+            "moduleName": "TaboolaLite",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TaboolaLite11TBLLogLevelO8rawValueSivp",
+            "mangledName": "$s11TaboolaLite11TBLLogLevelO8rawValueSivp",
+            "moduleName": "TaboolaLite",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TaboolaLite11TBLLogLevelO8rawValueSivg",
+                "mangledName": "$s11TaboolaLite11TBLLogLevelO8rawValueSivg",
+                "moduleName": "TaboolaLite",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11TaboolaLite11TBLLogLevelO",
+        "mangledName": "$s11TaboolaLite11TBLLogLevelO",
+        "moduleName": "TaboolaLite",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 867,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 77,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 103,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 137,
+      "length": 3,
+      "value": "503"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 169,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 225,
+      "length": 2,
+      "value": "-3"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 257,
+      "length": 2,
+      "value": "-4"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 288,
+      "length": 2,
+      "value": "-5"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 310,
+      "length": 2,
+      "value": "-6"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 345,
+      "length": 2,
+      "value": "-7"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1300,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1353,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1398,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1438,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1486,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1539,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1544,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1586,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1624,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1662,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1692,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 152,
+      "length": 21,
+      "value": "\"com.taboola.network\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "kind": "FloatLiteral",
+      "offset": 481,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "kind": "FloatLiteral",
+      "offset": 584,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 731,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 781,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 831,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 881,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1077,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1081,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1088,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1108,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1113,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1120,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1236,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "kind": "Array",
+      "offset": 1590,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 1650,
+      "length": 27,
+      "value": "\"com.taboola.config.access\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1800,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 15,
+      "value": "\"taboolabridge\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 432,
+      "length": 15,
+      "value": "\"consoleLogger\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 493,
+      "length": 28,
+      "value": "\"window.onCollectedUserData\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 556,
+      "length": 25,
+      "value": "\"window.onContentRefresh\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 722,
+      "length": 15,
+      "value": "\"categoryClick\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 769,
+      "length": 11,
+      "value": "\"itemClick\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 813,
+      "length": 12,
+      "value": "\"pageClosed\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 854,
+      "length": 8,
+      "value": "\"loaded\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 897,
+      "length": 14,
+      "value": "\"failedToLoad\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 946,
+      "length": 14,
+      "value": "\"shareClicked\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 998,
+      "length": 17,
+      "value": "\"finishedRefresh\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1084,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 1117,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLNewsParams.swift",
+      "kind": "IntegerLiteral",
+      "offset": 88,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLNewsParams.swift",
+      "kind": "IntegerLiteral",
+      "offset": 110,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLNewsParams.swift",
+      "kind": "IntegerLiteral",
+      "offset": 140,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 243,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebView.swift",
+      "kind": "FloatLiteral",
+      "offset": 398,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 620,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2509,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3791,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
+      "kind": "Dictionary",
+      "offset": 445,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
+      "kind": "Dictionary",
+      "offset": 515,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
+      "kind": "StringLiteral",
+      "offset": 642,
+      "length": 28,
+      "value": "\"com.taboola.webview.status\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
+      "kind": "Dictionary",
+      "offset": 771,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
+      "kind": "StringLiteral",
+      "offset": 567,
+      "length": 5,
+      "value": "\"lat\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
+      "kind": "StringLiteral",
+      "offset": 604,
+      "length": 5,
+      "value": "\"lon\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
+      "kind": "StringLiteral",
+      "offset": 637,
+      "length": 4,
+      "value": "\"wd\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
+      "kind": "StringLiteral",
+      "offset": 670,
+      "length": 4,
+      "value": "\"ht\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
+      "kind": "StringLiteral",
+      "offset": 705,
+      "length": 10,
+      "value": "\"keyboard\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 87,
+      "length": 21,
+      "value": "\"TBLInternalUserData\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 140,
+      "length": 11,
+      "value": "\"device_id\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 180,
+      "length": 13,
+      "value": "\"sdk_version\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 10,
+      "value": "\"app_name\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 13,
+      "value": "\"app_version\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 8,
+      "value": "\"app_id\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 14,
+      "value": "\"device_model\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 375,
+      "length": 12,
+      "value": "\"os_version\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 420,
+      "length": 17,
+      "value": "\"connection_type\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 472,
+      "length": 20,
+      "value": "\"device_screen_size\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 15,
+      "value": "\"user_language\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 565,
+      "length": 10,
+      "value": "\"location\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 601,
+      "length": 9,
+      "value": "\"country\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 633,
+      "length": 6,
+      "value": "\"city\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 675,
+      "length": 6,
+      "value": "\"main\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 714,
+      "length": 8,
+      "value": "\"locale\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 756,
+      "length": 9,
+      "value": "\"display\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 800,
+      "length": 10,
+      "value": "\"keyboard\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 839,
+      "length": 7,
+      "value": "\"email\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "kind": "StringLiteral",
+      "offset": 877,
+      "length": 14,
+      "value": "\"globalUserId\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLUserData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 319,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLUserData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 352,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLUserDataCollector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 493,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLUserDataCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 639,
+      "length": 29,
+      "value": "\"com.taboola.userdata.access\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 88,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 102,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 116,
+      "length": 5,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 131,
+      "length": 4,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 14,
+      "value": "\"TBLSDKLogger\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 680,
+      "length": 21,
+      "value": "\"yyyy-MM-dd HH:mm:ss\""
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 109,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "kind": "Dictionary",
+      "offset": 178,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "kind": "Dictionary",
+      "offset": 254,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 317,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 358,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 402,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 454,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 525,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 608,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 681,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5097,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 5100,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5114,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 5117,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5130,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 5133,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 5147,
+      "length": 3,
+      "value": "1.0"
+    }
+  ]
+}
