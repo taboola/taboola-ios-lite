@@ -258,6 +258,9 @@ TBLSDK.shared.updateReloadIntervals(
 
 ## Changelog
 
+### Version 1.4.2
+- Removed the configuration line that disables JavaScript (javaScriptEnabled = false) on the WebView.
+
 ### Version 1.4.1
 - Framework is now dynamic (changed from static).
 
