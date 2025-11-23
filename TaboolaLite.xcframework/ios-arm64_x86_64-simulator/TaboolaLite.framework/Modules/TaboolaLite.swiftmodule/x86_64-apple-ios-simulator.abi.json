@@ -1421,6 +1421,43 @@
           },
           {
             "kind": "Var",
+            "name": "chatTabAwareness",
+            "printedName": "chatTabAwareness",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TaboolaLite.TBLReferralCode.Type) -> TaboolaLite.TBLReferralCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TBLReferralCode",
+                    "printedName": "TaboolaLite.TBLReferralCode",
+                    "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TaboolaLite.TBLReferralCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TBLReferralCode",
+                        "printedName": "TaboolaLite.TBLReferralCode",
+                        "usr": "s:11TaboolaLite15TBLReferralCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11TaboolaLite15TBLReferralCodeO16chatTabAwarenessyA2CmF",
+            "mangledName": "$s11TaboolaLite15TBLReferralCodeO16chatTabAwarenessyA2CmF",
+            "moduleName": "TaboolaLite"
+          },
+          {
+            "kind": "Var",
             "name": "referralName",
             "printedName": "referralName",
             "children": [
@@ -3226,6 +3263,13 @@
       "offset": 140,
       "length": 1,
       "value": "2"
+    },
+    {
+      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLNewsParams.swift",
+      "kind": "IntegerLiteral",
+      "offset": 170,
+      "length": 1,
+      "value": "3"
     },
     {
       "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebView.swift",

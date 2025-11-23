@@ -65,6 +65,7 @@ public enum TBLReferralCode : Swift.Int, Swift.CaseIterable {
   case newsPage
   case chatPage
   case pushNotification
+  case chatTabAwareness
   public var referralName: Swift.String {
     get
   }
