@@ -258,7 +258,7 @@ TBLSDK.shared.updateReloadIntervals(
 
 ## Changelog
 
-### Version 1.4.4
+### Version 1.4.5
 - Added new referral type `chatTabAwareness` for chat tab native ad tracking.
 
 ### Version 1.4.3
