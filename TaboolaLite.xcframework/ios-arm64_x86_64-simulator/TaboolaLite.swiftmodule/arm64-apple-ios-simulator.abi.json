@@ -1298,6 +1298,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2873,828 +2883,856 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLSDK.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLSDK.swift",
       "kind": "StringLiteral",
-      "offset": 750,
+      "offset": 746,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLSDK.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 867,
+      "offset": 863,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 77,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 103,
       "length": 3,
       "value": "400"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 137,
       "length": 3,
       "value": "503"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 169,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 199,
       "length": 2,
       "value": "-2"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 225,
       "length": 2,
       "value": "-3"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 257,
       "length": 2,
       "value": "-4"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 288,
       "length": 2,
       "value": "-5"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 310,
       "length": 2,
       "value": "-6"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLStatusCode.swift",
       "kind": "IntegerLiteral",
       "offset": 345,
       "length": 2,
       "value": "-7"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1300,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1353,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1398,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1438,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1486,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 1539,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 1544,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 1586,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 1624,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 1662,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1692,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "StringLiteral",
       "offset": 152,
       "length": 21,
       "value": "\"com.taboola.network\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "FloatLiteral",
       "offset": 481,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "FloatLiteral",
       "offset": 584,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "IntegerLiteral",
       "offset": 731,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "BooleanLiteral",
       "offset": 781,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "BooleanLiteral",
       "offset": 831,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "BooleanLiteral",
       "offset": 881,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "IntegerLiteral",
       "offset": 1077,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "IntegerLiteral",
       "offset": 1081,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "IntegerLiteral",
       "offset": 1088,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "IntegerLiteral",
       "offset": 1108,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "IntegerLiteral",
       "offset": 1113,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "IntegerLiteral",
       "offset": 1120,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "BooleanLiteral",
       "offset": 1236,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "Array",
       "offset": 1590,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "StringLiteral",
       "offset": 1650,
       "length": 27,
       "value": "\"com.taboola.config.access\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
       "kind": "BooleanLiteral",
       "offset": 1800,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 385,
       "length": 15,
       "value": "\"taboolabridge\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 15,
       "value": "\"consoleLogger\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 493,
       "length": 28,
       "value": "\"window.onCollectedUserData\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 556,
       "length": 25,
       "value": "\"window.onContentRefresh\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 722,
       "length": 15,
       "value": "\"categoryClick\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 769,
       "length": 11,
       "value": "\"itemClick\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 813,
       "length": 12,
       "value": "\"pageClosed\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 854,
       "length": 8,
       "value": "\"loaded\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 897,
       "length": 14,
       "value": "\"failedToLoad\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 946,
       "length": 14,
       "value": "\"shareClicked\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 998,
       "length": 17,
       "value": "\"finishedRefresh\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 1084,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLJavascriptBridge.swift",
       "kind": "StringLiteral",
       "offset": 1117,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLNewsParams.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLLineSpinner.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
+      "length": 19,
+      "value": "\"rotationAnimation\""
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLLineSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 305,
+      "length": 3,
+      "value": "2.5"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLLineSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 431,
+      "length": 4,
+      "value": "0.85"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLLineSpinner.swift",
+      "kind": "FloatLiteral",
+      "offset": 444,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLNewsParams.swift",
       "kind": "IntegerLiteral",
       "offset": 88,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLNewsParams.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLNewsParams.swift",
       "kind": "IntegerLiteral",
       "offset": 110,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLNewsParams.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLNewsParams.swift",
       "kind": "IntegerLiteral",
       "offset": 140,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLNewsParams.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLNewsParams.swift",
       "kind": "IntegerLiteral",
       "offset": 170,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebView.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 243,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebView.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebView.swift",
       "kind": "FloatLiteral",
-      "offset": 398,
+      "offset": 443,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 620,
+      "offset": 655,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2509,
+      "offset": 2574,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3791,
+      "offset": 3856,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
       "kind": "Dictionary",
       "offset": 445,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
       "kind": "Dictionary",
       "offset": 515,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
       "kind": "StringLiteral",
       "offset": 642,
       "length": 28,
       "value": "\"com.taboola.webview.status\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
       "kind": "Dictionary",
       "offset": 771,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
       "kind": "StringLiteral",
       "offset": 567,
       "length": 5,
       "value": "\"lat\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
       "kind": "StringLiteral",
       "offset": 604,
       "length": 5,
       "value": "\"lon\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
       "kind": "StringLiteral",
       "offset": 637,
       "length": 4,
       "value": "\"wd\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
       "kind": "StringLiteral",
       "offset": 670,
       "length": 4,
       "value": "\"ht\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserData.swift",
       "kind": "StringLiteral",
       "offset": 705,
       "length": 10,
       "value": "\"keyboard\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 87,
       "length": 21,
       "value": "\"TBLInternalUserData\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 140,
       "length": 11,
       "value": "\"device_id\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 180,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 10,
       "value": "\"app_name\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 13,
       "value": "\"app_version\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 295,
       "length": 8,
       "value": "\"app_id\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 333,
       "length": 14,
       "value": "\"device_model\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 375,
       "length": 12,
       "value": "\"os_version\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 420,
       "length": 17,
       "value": "\"connection_type\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 472,
       "length": 20,
       "value": "\"device_screen_size\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 523,
       "length": 15,
       "value": "\"user_language\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 565,
       "length": 10,
       "value": "\"location\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 601,
       "length": 9,
       "value": "\"country\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 633,
       "length": 6,
       "value": "\"city\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 675,
       "length": 6,
       "value": "\"main\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 714,
       "length": 8,
       "value": "\"locale\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 756,
       "length": 9,
       "value": "\"display\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 800,
       "length": 10,
       "value": "\"keyboard\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 839,
       "length": 7,
       "value": "\"email\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLInternalUserDataConsts.swift",
       "kind": "StringLiteral",
       "offset": 877,
       "length": 14,
       "value": "\"globalUserId\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLUserData.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLUserData.swift",
       "kind": "BooleanLiteral",
       "offset": 319,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLUserData.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLUserData.swift",
       "kind": "BooleanLiteral",
       "offset": 352,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLUserDataCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLUserDataCollector.swift",
       "kind": "BooleanLiteral",
       "offset": 493,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLUserDataCollector.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/user_data\/TBLUserDataCollector.swift",
       "kind": "StringLiteral",
       "offset": 639,
       "length": 29,
       "value": "\"com.taboola.userdata.access\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 88,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 102,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 116,
       "length": 5,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 131,
       "length": 4,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
       "kind": "StringLiteral",
       "offset": 537,
       "length": 14,
       "value": "\"TBLSDKLogger\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLLogger.swift",
       "kind": "StringLiteral",
       "offset": 680,
       "length": 21,
       "value": "\"yyyy-MM-dd HH:mm:ss\""
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
       "kind": "IntegerLiteral",
       "offset": 109,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
       "kind": "Dictionary",
       "offset": 178,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
       "kind": "Dictionary",
       "offset": 254,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
       "kind": "BooleanLiteral",
       "offset": 317,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
       "kind": "BooleanLiteral",
       "offset": 358,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
       "kind": "BooleanLiteral",
       "offset": 402,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
       "kind": "FloatLiteral",
       "offset": 454,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
       "kind": "BooleanLiteral",
       "offset": 525,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
       "kind": "IntegerLiteral",
       "offset": 608,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLReloadManager.swift",
       "kind": "IntegerLiteral",
       "offset": 681,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 5097,
+      "offset": 6320,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 5100,
+      "offset": 6323,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 5114,
+      "offset": 6337,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 5117,
+      "offset": 6340,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 5130,
+      "offset": 6353,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 5133,
+      "offset": 6356,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/tzufit.l\/git\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 5147,
+      "offset": 6370,
       "length": 3,
       "value": "1.0"
     }

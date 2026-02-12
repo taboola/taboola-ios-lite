@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name TaboolaLite -package-name sdk
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name TaboolaLite -package-name sdk
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AdSupport
 import CoreLocation
 import Foundation
@@ -27,7 +27,9 @@ public protocol OnTBLNewsListener : AnyObject {
 }
 @_hasMissingDesignatedInitializers public class TBLSDK {
   public static let shared: TaboolaLite.TBLSDK
+  #if compiler(>=5.3) && $NonescapableTypes
   public func initialize(publisherId: Swift.String, data: TaboolaLite.TBLUserData, newsParams: TaboolaLite.TBLNewsParams, onTaboolaListener: (any TaboolaLite.OnTBLListener)? = nil)
+  #endif
   public func deinitialize()
   public func setupTaboolaNews(view: UIKit.UIView, onTBLNewsListener: any TaboolaLite.OnTBLNewsListener)
   public func setUserData(_ userData: TaboolaLite.TBLUserData)
@@ -38,7 +40,9 @@ public protocol OnTBLNewsListener : AnyObject {
   public func onResumeTaboolaNews()
   public func removeTaboolaNewsFromView()
   public func setLogLevel(_ logLevel: TaboolaLite.TBLLogLevel)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func updateReloadIntervals(_ reloadWebViewTimeMinute: Swift.Int? = nil, _ timerRepeatInterval: Swift.Int? = nil)
+  #endif
   @objc deinit
 }
 public enum TBLStatusCode : Swift.Int {
@@ -55,7 +59,9 @@ public enum TBLStatusCode : Swift.Int {
   public var message: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -70,8 +76,12 @@ public enum TBLReferralCode : Swift.Int, Swift.CaseIterable {
     get
   }
   public static func from(code: Swift.Int) -> TaboolaLite.TBLReferralCode
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func fromString(referralName: Swift.String?) -> TaboolaLite.TBLReferralCode
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias AllCases = [TaboolaLite.TBLReferralCode]
   public typealias RawValue = Swift.Int
   nonisolated public static var allCases: [TaboolaLite.TBLReferralCode] {
@@ -82,7 +92,9 @@ public enum TBLReferralCode : Swift.Int, Swift.CaseIterable {
   }
 }
 public struct TBLNewsParams : Swift.Equatable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(referralType: TaboolaLite.TBLReferralCode = .newsPage, journeyData: Swift.String? = nil)
+  #endif
   public static func == (a: TaboolaLite.TBLNewsParams, b: TaboolaLite.TBLNewsParams) -> Swift.Bool
 }
 public class TBLUserData : Swift.Equatable {
@@ -100,7 +112,9 @@ public enum TBLLogLevel : Swift.Int {
   case warn
   case error
   case none
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get

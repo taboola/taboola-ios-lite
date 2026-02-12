@@ -258,6 +258,10 @@ TBLSDK.shared.updateReloadIntervals(
 
 ## Changelog
 
+### Version 1.4.7
+- Added pull to refresh layout.
+- Support for OA push.
+
 ### Version 1.4.5
 - Added new referral type `chatTabAwareness` for chat tab native ad tracking.
 
