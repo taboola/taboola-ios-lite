@@ -262,6 +262,7 @@ TBLSDK.shared.updateReloadIntervals(
 - Swipe to close functionality
 - Bottom Navigation Bar color fix
 - Build and deployment pipeline improvements
+- GAM Support
 
 ### Version 1.4.7
 - Added pull to refresh layout.
