@@ -1908,8 +1908,22 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TaboolaLite"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "TaboolaLite"
       },
@@ -2885,14 +2899,21 @@
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLSDK.swift",
       "kind": "StringLiteral",
-      "offset": 746,
+      "offset": 695,
+      "length": 7,
+      "value": "\"1.4.8\""
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 782,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/TBLSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 863,
+      "offset": 899,
       "length": 5,
       "value": "false"
     },
@@ -2969,79 +2990,135 @@
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1300,
+      "offset": 1576,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1353,
+      "offset": 1629,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1398,
+      "offset": 1674,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1438,
+      "offset": 1714,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1486,
+      "offset": 1762,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1539,
+      "offset": 1815,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1544,
+      "offset": 1820,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1586,
+      "offset": 1862,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1624,
+      "offset": 1901,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1662,
+      "offset": 1939,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1692,
+      "offset": 1969,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2013,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 2089,
+      "length": 4,
+      "value": "0.33"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2132,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 2174,
+      "length": 4,
+      "value": "0.33"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2215,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 2255,
+      "length": 4,
+      "value": "0.33"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2293,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 2330,
+      "length": 4,
+      "value": "0.33"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfigCollector.swift",
@@ -3310,65 +3387,128 @@
       "value": "3"
     },
     {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLSlideTransition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 57,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLSlideTransition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 76,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLSlideTransition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 94,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLSlideTransition.swift",
+      "kind": "FloatLiteral",
+      "offset": 2908,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLSlideTransition.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2963,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLSlideTransition.swift",
+      "kind": "FloatLiteral",
+      "offset": 3050,
+      "length": 4,
+      "value": "0.33"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLSlideTransition.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3099,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLSlideTransition.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3144,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLSlideTransition.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3749,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 243,
+      "offset": 310,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebView.swift",
       "kind": "FloatLiteral",
-      "offset": 443,
+      "offset": 510,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 655,
+      "offset": 620,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2574,
+      "offset": 4219,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3856,
+      "offset": 5501,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
       "kind": "Dictionary",
-      "offset": 445,
+      "offset": 380,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
       "kind": "Dictionary",
-      "offset": 515,
+      "offset": 450,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
       "kind": "StringLiteral",
-      "offset": 642,
+      "offset": 577,
       "length": 28,
       "value": "\"com.taboola.webview.status\""
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewCreator.swift",
       "kind": "Dictionary",
-      "offset": 771,
+      "offset": 706,
       "length": 3,
       "value": "[]"
     },
@@ -3690,49 +3830,49 @@
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 6320,
+      "offset": 5553,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 6323,
+      "offset": 5556,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 6337,
+      "offset": 5570,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 6340,
+      "offset": 5573,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 6353,
+      "offset": 5586,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 6356,
+      "offset": 5589,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/rifat.y\/StudioProjects\/mobile-lite-sdk\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 6370,
+      "offset": 5603,
       "length": 3,
       "value": "1.0"
     }

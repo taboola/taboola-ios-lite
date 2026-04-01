@@ -8,7 +8,7 @@ The Taboola Lite SDK allows developers to easily integrate Taboola's personalize
 
 Before you begin, ensure your project meets the following requirements:
 
-- **Minimum iOS Version**: 14.0
+- **Minimum iOS Version**: 15.0
 - **Xcode**: 13.0 or later
 - **Swift**: 5.0 or later
 
@@ -258,9 +258,16 @@ TBLSDK.shared.updateReloadIntervals(
 
 ## Changelog
 
+### Version 1.4.8
+- Swipe to close functionality
+- Bottom Navigation Bar color fix
+- Build and deployment pipeline improvements
+
 ### Version 1.4.7
 - Added pull to refresh layout.
 - Support for OA push.
+
+### Version 1.4.6
 
 ### Version 1.4.5
 - Added new referral type `chatTabAwareness` for chat tab native ad tracking.
