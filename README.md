@@ -256,13 +256,27 @@ TBLSDK.shared.updateReloadIntervals(
 )
 ```
 
+### Enable Liquid Glass
+
+If your app adopts iOS 26's Liquid Glass design, opt the SDK in **before** calling `initialize(...)` so the WebView anchors to the view's top (content can extend behind the status bar) and uses `.automatic` content-inset adjustment. When disabled (the default), the WebView is anchored to the safe-area top with the legacy `.never` adjustment behavior.
+
+```swift
+TBLSDK.shared.setLiquidGlassEnabled(true)
+TBLSDK.shared.initialize(publisherId: publisherId, data: userData, newsParams: newsParams, onTaboolaListener: listener)
+```
+
+Pass `false` (or skip the call entirely) to keep the legacy behavior. The flag only affects WebViews hosted directly in your app's view hierarchy — Taboola item / category pages presented by the SDK in their own view controller always use the legacy anchoring.
+
 ## Changelog
+
+### Version 1.4.11
+- Added page-type aware click routing: `AD`-classified URLs now open in the system browser.
+- Added Liquid Glass support via `TBLSDK.shared.setLiquidGlassEnabled(_:)`.
 
 ### Version 1.4.8
 - Swipe to close functionality
 - Bottom Navigation Bar color fix
 - Build and deployment pipeline improvements
-- GAM Support
 
 ### Version 1.4.7
 - Added pull to refresh layout.

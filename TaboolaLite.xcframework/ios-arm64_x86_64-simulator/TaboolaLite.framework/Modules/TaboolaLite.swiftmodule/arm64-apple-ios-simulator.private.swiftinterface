@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name TaboolaLite -package-name sdk
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import AdSupport
 import CoreLocation
 import Foundation
@@ -27,6 +27,7 @@ public protocol OnTBLNewsListener : AnyObject {
 }
 @_hasMissingDesignatedInitializers public class TBLSDK {
   public static let shared: TaboolaLite.TBLSDK
+  public func setLiquidGlassEnabled(_ enabled: Swift.Bool)
   #if compiler(>=5.3) && $NonescapableTypes
   public func initialize(publisherId: Swift.String, data: TaboolaLite.TBLUserData, newsParams: TaboolaLite.TBLNewsParams, onTaboolaListener: (any TaboolaLite.OnTBLListener)? = nil)
   #endif
