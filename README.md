@@ -270,8 +270,10 @@ Pass `false` (or skip the call entirely) to keep the legacy behavior. The flag o
 ## Changelog
 
 ### Version 1.4.11
-- Added page-type aware click routing: `AD`-classified URLs now open in the system browser.
 - Added Liquid Glass support via `TBLSDK.shared.setLiquidGlassEnabled(_:)`.
+
+### Version 1.4.10
+- Added page-type aware click routing: `AD`-classified URLs now open in the system browser.
 
 ### Version 1.4.8
 - Swipe to close functionality
