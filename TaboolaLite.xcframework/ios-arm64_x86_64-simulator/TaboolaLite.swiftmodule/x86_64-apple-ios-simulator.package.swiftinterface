@@ -27,6 +27,7 @@ public protocol OnTBLNewsListener : AnyObject {
 }
 @_hasMissingDesignatedInitializers public class TBLSDK {
   public static let shared: TaboolaLite.TBLSDK
+  public func setLiquidGlassEnabled(_ enabled: Swift.Bool)
   #if compiler(>=5.3) && $NonescapableTypes
   public func initialize(publisherId: Swift.String, data: TaboolaLite.TBLUserData, newsParams: TaboolaLite.TBLNewsParams, onTaboolaListener: (any TaboolaLite.OnTBLListener)? = nil)
   #endif

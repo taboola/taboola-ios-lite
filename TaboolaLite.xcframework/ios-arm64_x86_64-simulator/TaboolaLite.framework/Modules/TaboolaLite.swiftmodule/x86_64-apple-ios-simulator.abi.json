@@ -340,6 +340,32 @@
           },
           {
             "kind": "Function",
+            "name": "setLiquidGlassEnabled",
+            "printedName": "setLiquidGlassEnabled(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TaboolaLite6TBLSDKC21setLiquidGlassEnabledyySbF",
+            "mangledName": "$s11TaboolaLite6TBLSDKC21setLiquidGlassEnabledyySbF",
+            "moduleName": "TaboolaLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "initialize",
             "printedName": "initialize(publisherId:data:newsParams:onTaboolaListener:)",
             "children": [
@@ -2901,7 +2927,7 @@
       "kind": "StringLiteral",
       "offset": 695,
       "length": 8,
-      "value": "\"1.4.10\""
+      "value": "\"1.4.12\""
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/TBLSDK.swift",
@@ -2914,6 +2940,13 @@
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/TBLSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 900,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/TBLSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1312,
       "length": 5,
       "value": "false"
     },
@@ -3487,21 +3520,21 @@
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3542,
+      "offset": 3471,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4875,
+      "offset": 4804,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7136,
+      "offset": 7065,
       "length": 5,
       "value": "false"
     },
