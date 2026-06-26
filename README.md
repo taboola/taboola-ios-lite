@@ -269,6 +269,9 @@ Pass `false` (or skip the call entirely) to keep the legacy behavior. The flag o
 
 ## Changelog
 
+### Version 1.4.13
+- Fix unresponsive ad clicks.
+
 ### Version 1.4.12
 - Disabled landscape mode in article page.
 
