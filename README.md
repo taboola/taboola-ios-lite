@@ -269,6 +269,9 @@ Pass `false` (or skip the call entirely) to keep the legacy behavior. The flag o
 
 ## Changelog
 
+### Version 1.4.14
+- Fixed iframe clicks: clicking some iframes no longer also navigates the main feed.
+
 ### Version 1.4.13
 - Fix unresponsive ad clicks.
 

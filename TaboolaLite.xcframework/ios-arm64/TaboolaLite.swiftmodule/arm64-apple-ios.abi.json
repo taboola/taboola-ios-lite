@@ -2927,7 +2927,7 @@
       "kind": "StringLiteral",
       "offset": 695,
       "length": 8,
-      "value": "\"1.4.13\""
+      "value": "\"1.4.14\""
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/TBLSDK.swift",
