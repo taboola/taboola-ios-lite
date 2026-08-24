@@ -2927,7 +2927,7 @@
       "kind": "StringLiteral",
       "offset": 695,
       "length": 8,
-      "value": "\"1.4.15\""
+      "value": "\"1.4.16\""
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/TBLSDK.swift",
@@ -3023,140 +3023,161 @@
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1613,
+      "offset": 1998,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1666,
+      "offset": 2051,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1711,
+      "offset": 2096,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1751,
+      "offset": 2136,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1799,
+      "offset": 2184,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1852,
+      "offset": 2237,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1857,
+      "offset": 2242,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1899,
+      "offset": 2284,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1938,
+      "offset": 2323,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1976,
+      "offset": 2361,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2006,
+      "offset": 2391,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 2050,
+      "offset": 2435,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 2126,
+      "offset": 2511,
       "length": 4,
       "value": "0.33"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 2169,
+      "offset": 2554,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 2211,
+      "offset": 2596,
       "length": 4,
       "value": "0.33"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 2252,
+      "offset": 2637,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 2292,
+      "offset": 2677,
       "length": 4,
       "value": "0.33"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 2330,
+      "offset": 2715,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 2367,
+      "offset": 2752,
       "length": 4,
       "value": "0.33"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2793,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 2833,
+      "length": 4,
+      "value": "0.33"
+    },
+    {
+      "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2882,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/publisher_config\/TBLPublisherConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2411,
+      "offset": 2925,
       "length": 4,
       "value": "true"
     },
@@ -3449,36 +3470,50 @@
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/taboola_webview\/TBLSlideTransition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/taboola_webview\/TBLSlideTransition.swift",
       "kind": "FloatLiteral",
-      "offset": 3110,
+      "offset": 3233,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/taboola_webview\/TBLSlideTransition.swift",
       "kind": "BooleanLiteral",
-      "offset": 3165,
+      "offset": 3288,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/taboola_webview\/TBLSlideTransition.swift",
       "kind": "FloatLiteral",
-      "offset": 3252,
+      "offset": 3375,
       "length": 4,
       "value": "0.33"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/taboola_webview\/TBLSlideTransition.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3415,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/taboola_webview\/TBLSlideTransition.swift",
       "kind": "BooleanLiteral",
-      "offset": 3301,
+      "offset": 3461,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/taboola_webview\/TBLSlideTransition.swift",
       "kind": "BooleanLiteral",
-      "offset": 3346,
+      "offset": 3506,
       "length": 5,
       "value": "false"
     },
@@ -3520,21 +3555,21 @@
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3471,
+      "offset": 3565,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4804,
+      "offset": 4898,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/taboola_webview\/TBLWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7065,
+      "offset": 7159,
       "length": 5,
       "value": "false"
     },
@@ -3884,56 +3919,56 @@
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 5164,
+      "offset": 5179,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 6704,
+      "offset": 6794,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 6707,
+      "offset": 6797,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 6721,
+      "offset": 6811,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 6724,
+      "offset": 6814,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 6737,
+      "offset": 6827,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 6740,
+      "offset": 6830,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 6754,
+      "offset": 6844,
       "length": 3,
       "value": "1.0"
     }
