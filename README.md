@@ -269,6 +269,10 @@ Pass `false` (or skip the call entirely) to keep the legacy behavior. The flag o
 
 ## Changelog
 
+### Version 1.4.17
+- Memory usage improvements.
+- Configuration management improvements.
+
 ### Version 1.4.16
 - Adjust configuration parsing order.
 - Added video specific configurations.
