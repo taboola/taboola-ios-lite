@@ -2927,7 +2927,7 @@
       "kind": "StringLiteral",
       "offset": 695,
       "length": 8,
-      "value": "\"1.4.17\""
+      "value": "\"1.4.18\""
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/TBLSDK.swift",
@@ -3926,56 +3926,56 @@
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 5179,
+      "offset": 5310,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 6794,
+      "offset": 6925,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 6797,
+      "offset": 6928,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 6811,
+      "offset": 6942,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 6814,
+      "offset": 6945,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 6827,
+      "offset": 6958,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 6830,
+      "offset": 6961,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/build\/jenkins\/workspace\/Lite.Build.and.Release\/iOS\/SDK\/Sources\/utils\/TBLUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 6844,
+      "offset": 6975,
       "length": 3,
       "value": "1.0"
     }

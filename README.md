@@ -269,6 +269,9 @@ Pass `false` (or skip the call entirely) to keep the legacy behavior. The flag o
 
 ## Changelog
 
+### Version 1.4.18
+- Improved handling of cached user data when consent is withdrawn.
+
 ### Version 1.4.17
 - Memory usage improvements.
 - Configuration management improvements.
